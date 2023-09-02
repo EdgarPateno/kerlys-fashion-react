@@ -1,3 +1,12 @@
+/* global */
+.btn-primary {
+  background-color: #329BD1;
+}
+
+.btn-primary:hover {
+  background-color: #329BD1;
+}
+
 /* AnnouncementBanner CSS */
 .carousel-item {
   background-color: black;
@@ -6,13 +15,49 @@
   text-align: center;
 }
 
-.carousel-control-next, .carousel-control-prev, .carousel-indicators {
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
   display: none;
 }
 /* END AnnouncementBanner CSS */
 
+
 /* MainNav CSS */
-  nav .btn-primary {
-    background-color: #329BD1;
-  }
+
 /* END MainNav CSS */
+
+
+/* HomepageBannerBag CSS */
+.homepage-video-banner-bag {
+  position: relative;
+}
+
+.homepage-video-banner-bag-textbox {
+  position: absolute;
+  top: 35%;
+  left: 3%;
+}
+
+.homepage-video-banner-bag-textbox h3 {
+  color: white;
+}
+/* END HomepageBannerBag CSS */
+
+
+/* ShopByBrands CSS */
+.shop-by-brands .card {
+  border: none;
+}
+/* END ShopByBrands CSS */
+
+
+
+/* ---------------------------------------- MOBILE RESPONSIVENESS --------------------------------- */
+@media screen and (max-width: 430px) {
+  .homepage-video-banner-bag-textbox {
+    position: absolute;
+    top: 25%;
+    left: 3%;
+  }
+}
