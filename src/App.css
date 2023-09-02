@@ -1,15 +1,13 @@
 /* AnnouncementBanner CSS */
-.custom-carousel {
-  /* Hide the next and previous controls */
-  .carousel-control-next,
-  .carousel-control-prev {
-    display: none;
-  }
+.carousel-item {
+  background-color: black;
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+}
 
-  /* Hide the indicators */
-  .carousel-indicators {
-    display: none;
-  }
+.carousel-control-next, .carousel-control-prev, .carousel-indicators {
+  display: none;
 }
 /* END AnnouncementBanner CSS */
 

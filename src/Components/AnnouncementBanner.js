@@ -9,15 +9,11 @@ function AnnouncementBanner() {
     <div className="custom-carousel">
       <Carousel>
         <Carousel.Item interval={2000}>
-          <div style={{ backgroundColor: 'black' }}>
-            <h4 style={{ textAlign: 'center', color: 'white', padding: '5px 0' }}>Free Shipping On All Orders</h4>
-          </div>
+          Free Shipping On All Orders          
         </Carousel.Item>
 
         <Carousel.Item interval={2000}>
-          <div style={{ backgroundColor: 'black' }}>
-            <h4 style={{ textAlign: 'center', color: 'white', padding: '5px 0' }}>20% OFF On All Items</h4>
-          </div>
+          20% OFF On All Items          
         </Carousel.Item>
       </Carousel>
     </div>
