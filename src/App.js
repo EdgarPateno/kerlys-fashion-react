@@ -4,6 +4,7 @@ import MainNav from './Components/MainNav';
 import HomepageBannerBag from './Components/HomepageVideoBannerBag';
 import ShopByBrands from './Components/ShopByBrands';
 import ElevateFashionImageBanner from './Components/ElevateFashionImageBanner';
+import WomenBagsJewelryImageBanner from './Components/WomenBagsJewelryImageBanner';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <HomepageBannerBag />
       <ShopByBrands />
       <ElevateFashionImageBanner />
+      <WomenBagsJewelryImageBanner />
     </div>
   );
 }
