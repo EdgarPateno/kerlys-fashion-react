@@ -82,6 +82,10 @@
     top: 25%;
     left: 3%;
   }
+
+  .homepage-video-banner-bag-textbox h3 {
+    font-size: 1.5rem;
+  }
 }
 
 /* END HomepageBannerBag VIDEO CSS */
@@ -120,6 +124,12 @@
 
 .embrace-luxury {
   color: white;
+}
+
+@media screen and (max-width: 430px) {
+  .elevate-fashion-text-overlay-box h3 {
+    font-size: 1.5rem;
+  }
 }
 
 /* END Elevate Fashion Image Banner CSS */
@@ -191,6 +201,17 @@ div.womens-jewellery-text-overlay h2 {
 
 .shoes-homepage-banner-video-textbox h3 {
   font-size: 4rem;
+}
+
+@media screen and (max-width: 430px) {
+  .shoes-homepage-banner-video-textbox h3 {
+    font-size: 1.5rem;
+  }
+
+  .shoes-homepage-banner-video-textbox {
+    width: 100%;
+  }
+
 }
 
 /* END - Homepage Video Banner Shoes CSS */

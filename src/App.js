@@ -8,6 +8,7 @@ import ShopByBrands from './Components/ShopByBrands';
 import ElevateFashionImageBanner from './Components/ElevateFashionImageBanner';
 import WomenBagsJewelryImageBanner from './Components/WomenBagsJewelryImageBanner';
 import HomepageVideoBannerShoes from './Components/HomepageVideoBannerShoes';
+import FeaturedProductsCarousel from './Components/FeaturedProductsCarousel';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <ElevateFashionImageBanner />
       <WomenBagsJewelryImageBanner />
       <HomepageVideoBannerShoes />
+      <FeaturedProductsCarousel />
     </div>
   );
 }
