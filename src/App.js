@@ -1,4 +1,6 @@
 import React from 'react';
+import CookieConsent from './Components/CookieConsent';
+import TawkTo from './Components/Tawkto';
 import AnnouncementBanner from './Components/AnnouncementBanner';
 import MainNav from './Components/MainNav';
 import HomepageBannerBag from './Components/HomepageVideoBannerBag';
@@ -10,6 +12,8 @@ import WomenBagsJewelryImageBanner from './Components/WomenBagsJewelryImageBanne
 function App() {
   return (
     <div>
+      <CookieConsent />
+      <TawkTo />
       <AnnouncementBanner />
       <MainNav />
       <HomepageBannerBag />

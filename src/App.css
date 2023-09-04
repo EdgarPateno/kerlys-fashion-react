@@ -7,6 +7,32 @@
   background-color: #329BD1;
 }
 
+/* CookieConsent CSS */
+.cookie-consent {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  z-index: 1;
+}
+
+.cookie-consent button {
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 430px) {
+  .cookie-consent {
+    width: 100%;
+    left: 0;
+  }
+}
+/* END CookieConsent CSS */
+
+
 /* AnnouncementBanner CSS */
 .carousel-item {
   background-color: black;
@@ -28,7 +54,7 @@
 /* END MainNav CSS */
 
 
-/* HomepageBannerBag CSS */
+/* HomepageBannerBag VIDEO CSS */
 .homepage-video-banner-bag {
   position: relative;
 }
@@ -46,7 +72,15 @@
 .unleash-style {
   color: #329BD1;
 }
-/* END HomepageBannerBag CSS */
+
+@media screen and (max-width: 430px) {
+  .homepage-video-banner-bag-textbox {
+    position: absolute;
+    top: 25%;
+    left: 3%;
+  }
+}
+/* END HomepageBannerBag VIDEO CSS */
 
 
 /* ShopByBrands CSS */
@@ -119,12 +153,3 @@ div.womens-jewellery-text-overlay h2 {
 }
 /* END - Womens Bags Jewelry Image Banner CSS */
 
-
-/* ---------------------------------------- MOBILE RESPONSIVENESS --------------------------------- */
-@media screen and (max-width: 430px) {
-  .homepage-video-banner-bag-textbox {
-    position: absolute;
-    top: 25%;
-    left: 3%;
-  }
-}
