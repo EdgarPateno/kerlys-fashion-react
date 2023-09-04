@@ -19,11 +19,11 @@ function App() {
       <AnnouncementBanner />
       <MainNav />
       <HomepageBannerBag />
+      <FeaturedProductsCarousel />
       <ShopByBrands />
       <ElevateFashionImageBanner />
       <WomenBagsJewelryImageBanner />
       <HomepageVideoBannerShoes />
-      <FeaturedProductsCarousel />
     </div>
   );
 }

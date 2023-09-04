@@ -1,12 +1,13 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 
 const FeaturedProductsCarousel = () => {
     return (
-        <section className='featured-products-carousel'>
+        <section className='featured-products-carousel my-5'>
             <div className='container'>
                 <h2 className='h1 mb-4 text-center'>OUR BEST SELLERS</h2>
-                <Carousel>
+                <Carousel prevIcon={<BsChevronLeft />} nextIcon={<BsChevronRight />}>
                     <Carousel.Item style={{ backgroundColor: 'white' }}>
                         <div className="d-flex justify-content-between gap-3">
                             <div className="card">

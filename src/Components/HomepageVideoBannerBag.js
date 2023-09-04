@@ -3,7 +3,7 @@
 function HomepageBannerBag() {
     return (
         <div>
-            <section className="homepage-video-banner-bag pb-5">
+            <section className="homepage-video-banner-bag">
                 <div className="container-liquid">
                     <video width="100%" noControls autoPlay loop muted>
                         <source src="videos/homepage-banner-2-video-louis-vuitton-bag.mp4" type="video/mp4" />
