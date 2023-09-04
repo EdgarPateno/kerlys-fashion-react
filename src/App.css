@@ -30,6 +30,7 @@
     left: 0;
   }
 }
+
 /* END CookieConsent CSS */
 
 
@@ -46,6 +47,7 @@
 .carousel-indicators {
   display: none;
 }
+
 /* END AnnouncementBanner CSS */
 
 
@@ -67,6 +69,7 @@
 
 .homepage-video-banner-bag-textbox h3 {
   color: white;
+  font-size: 4rem;
 }
 
 .unleash-style {
@@ -80,6 +83,7 @@
     left: 3%;
   }
 }
+
 /* END HomepageBannerBag VIDEO CSS */
 
 
@@ -87,6 +91,7 @@
 .shop-by-brands .card {
   border: none;
 }
+
 /* END ShopByBrands CSS */
 
 
@@ -105,9 +110,18 @@
   left: 3%;
 }
 
+.elevate-fashion-text-overlay-box h3 {
+  font-size: 4rem;
+}
+
 .elevate-fashion {
   color: #329BD1;
 }
+
+.embrace-luxury {
+  color: white;
+}
+
 /* END Elevate Fashion Image Banner CSS */
 
 
@@ -151,5 +165,32 @@ div.womens-jewellery-text-overlay h2 {
 .women-bags-jewellery-img-text-overlay-wrapper a {
   text-decoration: none;
 }
+
 /* END - Womens Bags Jewelry Image Banner CSS */
 
+
+/* Homepage Video Banner Shoes CSS */
+.shoes-homepage-banner-video .container-liquid {
+  position: relative;
+}
+
+.shoes-homepage-banner-video-textbox {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shoes-homepage-banner-video-textbox .elegance {
+  color: #329BD1;
+}
+
+.shoes-homepage-banner-video-textbox .comfort {
+  color: white;
+}
+
+.shoes-homepage-banner-video-textbox h3 {
+  font-size: 4rem;
+}
+
+/* END - Homepage Video Banner Shoes CSS */

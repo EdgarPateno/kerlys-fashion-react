@@ -7,6 +7,7 @@ import HomepageBannerBag from './Components/HomepageVideoBannerBag';
 import ShopByBrands from './Components/ShopByBrands';
 import ElevateFashionImageBanner from './Components/ElevateFashionImageBanner';
 import WomenBagsJewelryImageBanner from './Components/WomenBagsJewelryImageBanner';
+import HomepageVideoBannerShoes from './Components/HomepageVideoBannerShoes';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <ShopByBrands />
       <ElevateFashionImageBanner />
       <WomenBagsJewelryImageBanner />
+      <HomepageVideoBannerShoes />
     </div>
   );
 }
