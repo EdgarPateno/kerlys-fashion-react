@@ -86,9 +86,9 @@
 .featured-products-carousel .carousel-control-next,
 .featured-products-carousel .carousel-control-prev {
   display: flex !important;
-  color: black !important;
+  color: #329BD1 !important;
   font-size: 3rem;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.6);
   width: 5%;
 }
 
