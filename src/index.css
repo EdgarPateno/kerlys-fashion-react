@@ -14,9 +14,11 @@ code {
 
 /* global button */
 .btn-primary {
-  background-color: #329BD1;
+  background-color: #329BD1 !important;
+  border: #329BD1 !important;
 }
 
 .btn-primary:hover {
-  background-color: #329BD1;
+  background-color: #329BD1 !important;
+  border: #329BD1 !important;
 }
