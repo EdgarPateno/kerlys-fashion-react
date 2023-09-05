@@ -6,14 +6,14 @@ import '../App.css';
 
 function AnnouncementBanner() {
   return (
-    <div className="custom-carousel">
+    <div className="announcement-banner">
       <Carousel>
         <Carousel.Item interval={2000}>
-          Free Shipping On All Orders          
+          Free Shipping On All Orders
         </Carousel.Item>
 
         <Carousel.Item interval={2000}>
-          20% OFF On All Items          
+          20% OFF On All Items
         </Carousel.Item>
       </Carousel>
     </div>
