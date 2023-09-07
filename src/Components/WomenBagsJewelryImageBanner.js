@@ -13,6 +13,7 @@ const WomenBagsJewelryImageBanner = () => {
                 width="auto"
                 height="auto"
                 alt="Woman holding a bag"
+                className='animate__animated animate__flipInY'
               />
               <h2 className="text-center">BAGS</h2>
             </div>

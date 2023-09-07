@@ -45,9 +45,7 @@ const FeaturedProductsCarousel = () => {
                             <div className="card">
                                 <img src="./images/featured-products-carousel/8.webp" className="card-img-top" alt="Shoes 4" />
                             </div>
-                            {/* <div className="card">
-                        <img src="./images/featured-products-carousel/9.webp" className="card-img-top" alt="Shoes 5" />
-                    </div> */}
+
                         </div>
                     </Carousel.Item>
                 </Carousel>
