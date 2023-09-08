@@ -11,6 +11,10 @@
   z-index: 9999;
 }
 
+.cookie-consent-text {
+  color: #fff !important;
+}
+
 .cookie-consent button {
   margin: 0 5px;
 }
@@ -47,7 +51,11 @@
 /* END MainNav CSS */
 
 
-/* HomepageBannerBag VIDEO CSS */
+/* Homepage Banner Bag VIDEO CSS */
+section.homepage-video-banner-bag {
+  margin-top: 0 !important;
+}
+
 .homepage-video-banner-bag {
   position: relative;
 }
@@ -59,12 +67,15 @@
 }
 
 .homepage-video-banner-bag-textbox h3 {
-  color: white;
   font-size: 4rem;
 }
 
 .unleash-style {
   color: #329BD1;
+}
+
+.confidence {
+  color: white !important;
 }
 
 @media screen and (max-width: 430px) {
@@ -238,6 +249,10 @@ div.womens-jewellery-text-overlay h2 {
 }
 
 @media screen and (max-width: 430px) {
+  .jewelry-video-banner-homepage-textbox {
+    top: 30%;
+  }
+
   .jewelry-video-banner-homepage-textbox h3 {
     font-size: 1.5rem;
   }

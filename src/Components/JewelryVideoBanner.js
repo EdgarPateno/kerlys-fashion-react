@@ -2,7 +2,7 @@ import React from 'react'
 
 function JewelryVideoBanner() {
     return (
-        <section className="jewelry-video-banner-homepage py-5">
+        <section className="jewelry-video-banner-homepage">
             <div className="container-liquid">
                 <video width="100%" no-controls autoPlay loop muted>
                     <source src="./videos/jewellery-video-banner-homepage.mp4" type="video/mp4" />

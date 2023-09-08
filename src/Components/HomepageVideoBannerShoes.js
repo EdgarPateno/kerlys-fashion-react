@@ -2,7 +2,7 @@ import React from 'react'
 
 function HomepageVideoBannerShoes() {
     return (
-        <section className="shoes-homepage-banner-video py-5">
+        <section className="shoes-homepage-banner-video">
             <div className="container-liquid">
                 <video width="100%" no-controls autoPlay loop muted>
                     <source src="videos/homepage-video-banner-shoes.mp4" type="video/mp4" />

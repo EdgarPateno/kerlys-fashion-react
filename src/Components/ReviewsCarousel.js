@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const FeaturedProductsCarousel = () => {
+const ReviewsCarousel = () => {
     const settings = {
         dots: true,
         infinite: true,
@@ -25,11 +25,11 @@ const FeaturedProductsCarousel = () => {
     return (
         <section className="featured-products-carousel">
             <div className='container'>
-                <h2 className='featured-products-carousel-title text-center h1 mb-4'>OUR BEST SELLERS</h2>
+                <h2 className='featured-products-carousel-title text-center h1'>SPREAD THE WORDS</h2>
                 <Slider {...settings}>
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
-                            <img src="./images/featured-products-carousel/1.webp" class="card-img-top" alt="Featured Product 1" />
+                            <img src="./images/reviews-photos/1.webp" class="card-img-top" alt="Featured Product 1" />
                             <div className="featured-product-text-content text-center">
                                 <h3>Daenarys</h3>
                                 <p>
@@ -41,7 +41,7 @@ const FeaturedProductsCarousel = () => {
                     </div>
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
-                            <img src="./images/featured-products-carousel/2.webp" class="card-img-top" alt="Featured Product 2" />
+                            <img src="./images/reviews-photos/2.webp" class="card-img-top" alt="Featured Product 2" />
                             <div className="featured-product-text-content text-center">
                                 <h3>Greyjoy</h3>
                                 <p>
@@ -53,7 +53,7 @@ const FeaturedProductsCarousel = () => {
                     </div>
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
-                            <img src="./images/featured-products-carousel/3.webp" class="card-img-top" alt="Featured Product 3" />
+                            <img src="./images/reviews-photos/3.webp" class="card-img-top" alt="Featured Product 3" />
                             <div className="featured-product-text-content text-center">
                                 <h3>Aeliana</h3>
                                 <p>
@@ -65,7 +65,7 @@ const FeaturedProductsCarousel = () => {
                     </div>
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
-                            <img src="./images/featured-products-carousel/4.webp" class="card-img-top" alt="Featured Product 4" />
+                            <img src="./images/reviews-photos/review1.webp" class="card-img-top" alt="Featured Product 4" />
                             <div className="featured-product-text-content text-center">
                                 <h3>Tyene</h3>
                                 <p>
@@ -77,7 +77,7 @@ const FeaturedProductsCarousel = () => {
                     </div>
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
-                            <img src="./images/featured-products-carousel/5.webp" class="card-img-top" alt="Featured Product 5" />
+                            <img src="./images/reviews-photos/review2.webp" class="card-img-top" alt="Featured Product 5" />
                             <div className="featured-product-text-content text-center">
                                 <h3>Gilly</h3>
                                 <p>
@@ -89,7 +89,7 @@ const FeaturedProductsCarousel = () => {
                     </div>
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
-                            <img src="./images/featured-products-carousel/6.webp" class="card-img-top" alt="Featured Product 6" />
+                            <img src="./images/reviews-photos/review6.webp" class="card-img-top" alt="Featured Product 6" />
                             <div className="featured-product-text-content text-center">
                                 <h3>Idylle </h3>
                                 <p>
@@ -105,4 +105,4 @@ const FeaturedProductsCarousel = () => {
     );
 };
 
-export default FeaturedProductsCarousel;
+export default ReviewsCarousel;

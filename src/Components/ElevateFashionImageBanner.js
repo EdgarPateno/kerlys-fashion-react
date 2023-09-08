@@ -2,7 +2,7 @@ import React from 'react'
 
 function ElevateFashionImageBanner() {
   return (
-    <section className="elevate-fashion-image-banner py-5">
+    <section className="elevate-fashion-image-banner">
       <div className="elevate-fashion-image-banner-container">
         <div className="elevate-fashion-text-overlay-box">
           <h3 className="h1 mb-4">

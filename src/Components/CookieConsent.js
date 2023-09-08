@@ -55,8 +55,8 @@ const CookieConsent = () => {
 
   return (
     <div id="cookieConsent" className="cookie-consent">
-      <div className="mb-2">This website uses cookies to ensure you get the best experience on our website.</div>
-      <div>
+      <div className="cookie-consent-text mb-2">This website uses cookies to ensure you get the best experience on our website.</div>
+      <div className='cookie-consent-buttons'>
         <button onClick={acceptCookies} className="btn btn-primary">ACCEPT</button>
         <button onClick={declineCookies} className="btn btn-secondary">DECLINE</button>
       </div>

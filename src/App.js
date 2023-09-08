@@ -11,6 +11,7 @@ import WomenBagsJewelryImageBanner from './Components/WomenBagsJewelryImageBanne
 import HomepageVideoBannerShoes from './Components/HomepageVideoBannerShoes';
 import FeaturedProductsCarousel from './Components/FeaturedProductsCarousel';
 import JewelryVideoBanner from './Components/JewelryVideoBanner';
+import ReviewsCarousel from './Components/ReviewsCarousel';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <WomenBagsJewelryImageBanner />
       <HomepageVideoBannerShoes />
       <JewelryVideoBanner />
+      <ReviewsCarousel />
     </div>
   );
 }

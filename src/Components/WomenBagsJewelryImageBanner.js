@@ -2,7 +2,7 @@ import React from 'react';
 
 const WomenBagsJewelryImageBanner = () => {
   return (
-    <section className="womens-bags-jewellery-img-text-overlay py-5">
+    <section className="womens-bags-jewellery-img-text-overlay">
       <div className='container'>
         <div className="women-bags-jewellery-img-text-overlay-wrapper d-flex justify-content-center">
           <a href="all-bags-menu-main-nav.html">
