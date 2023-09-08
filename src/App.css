@@ -83,13 +83,9 @@
 
 
 /* Featured Products Carousel CSS */
-.featured-products-carousel .carousel-control-next,
-.featured-products-carousel .carousel-control-prev {
-  display: flex !important;
-  color: #329BD1 !important;
-  font-size: 3rem;
-  background: rgba(255, 255, 255, 0.6);
-  width: 5%;
+.featured-products-carousel .card {
+  border: none;
+  margin: 0 5px;
 }
 
 

@@ -22,3 +22,16 @@ code {
   background-color: #329BD1 !important;
   border: #329BD1 !important;
 }
+
+/* global regular price */
+.regular-price {
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+
+/* global sale price */
+.sale-price {
+  color: #329BD1;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
