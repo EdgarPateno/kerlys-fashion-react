@@ -25,7 +25,7 @@ const ReviewsCarousel = () => {
     return (
         <section className="featured-products-carousel">
             <div className='container'>
-                <h2 className='featured-products-carousel-title text-center h1'>SPREAD THE WORDS</h2>
+                <h2 className='featured-products-carousel-title text-center h1 mb-4'>SPREAD THE WORDS</h2>
                 <Slider {...settings}>
                     <div className='featured-product-content-wrapper'>
                         <div className="card">

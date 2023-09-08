@@ -12,6 +12,8 @@ import HomepageVideoBannerShoes from './Components/HomepageVideoBannerShoes';
 import FeaturedProductsCarousel from './Components/FeaturedProductsCarousel';
 import JewelryVideoBanner from './Components/JewelryVideoBanner';
 import ReviewsCarousel from './Components/ReviewsCarousel';
+import Newsletter from './Components/Newsletter';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
       <HomepageVideoBannerShoes />
       <JewelryVideoBanner />
       <ReviewsCarousel />
+      <Newsletter />
+      <Footer />
     </div>
   );
 }
