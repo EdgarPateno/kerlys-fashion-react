@@ -1,7 +1,8 @@
 import React from 'react';
 import { Navbar, Nav, Form, Button, Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../App.css';
+import '../CSS/Header.css';
+// import '../App.css';
 
 function Header() {
     return (

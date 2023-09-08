@@ -1,4 +1,4 @@
-
+import '../CSS/HomepageVideoBannerBag.css';
 
 function HomepageBannerBag() {
     return (

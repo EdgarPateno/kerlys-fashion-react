@@ -1,0 +1,23 @@
+/* Footer CSS */
+.site-footer {
+    background-color: #000;
+}
+
+.site-footer .card-title {
+    color: #fff;
+}
+
+.site-footer .card-body a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-footer .card-body p,
+.phone-number-footer {
+    color: #fff;
+}
+
+.site-footer .fa {
+    color: #fff;
+    font-size: 1.5rem;
+}

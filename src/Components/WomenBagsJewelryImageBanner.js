@@ -1,4 +1,4 @@
-import React from 'react';
+import '../CSS/WomenBagsJewelryImageBanner.css';
 
 const WomenBagsJewelryImageBanner = () => {
   return (

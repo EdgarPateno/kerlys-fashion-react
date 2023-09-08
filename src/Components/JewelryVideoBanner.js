@@ -1,4 +1,4 @@
-import React from 'react'
+import '../CSS/JewelryVideoBanner.css';
 
 function JewelryVideoBanner() {
     return (

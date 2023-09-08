@@ -1,0 +1,40 @@
+/* HomepageVideoBannerBag CSS */
+section.homepage-video-banner-bag {
+    margin-top: 0 !important;
+}
+
+.homepage-video-banner-bag {
+    position: relative;
+}
+
+.homepage-video-banner-bag-textbox {
+    position: absolute;
+    top: 35%;
+    left: 3%;
+}
+
+.homepage-video-banner-bag-textbox h3 {
+    font-size: 4rem;
+}
+
+.unleash-style {
+    color: #329BD1;
+}
+
+.confidence {
+    color: white !important;
+}
+
+@media screen and (max-width: 430px) {
+    .homepage-video-banner-bag-textbox {
+        position: absolute;
+        top: 25%;
+        left: 3%;
+    }
+
+    .homepage-video-banner-bag-textbox h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* END HomepageVideoBannerBag CSS */

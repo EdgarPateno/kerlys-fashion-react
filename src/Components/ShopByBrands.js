@@ -1,4 +1,4 @@
-
+import '../CSS/ShopByBrands.css';
 
 function ShopByBrands() {
     return (

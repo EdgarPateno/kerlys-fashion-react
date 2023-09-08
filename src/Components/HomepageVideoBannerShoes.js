@@ -1,4 +1,4 @@
-import React from 'react'
+import '../CSS/HomepageVideoBannerShoes.css';
 
 function HomepageVideoBannerShoes() {
     return (

@@ -1,0 +1,36 @@
+/* Homepage Video Banner Shoes CSS */
+.shoes-homepage-banner-video .container-liquid {
+    position: relative;
+}
+
+.shoes-homepage-banner-video-textbox {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shoes-homepage-banner-video-textbox .elegance {
+    color: #329BD1;
+}
+
+.shoes-homepage-banner-video-textbox .comfort {
+    color: white;
+}
+
+.shoes-homepage-banner-video-textbox h3 {
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 430px) {
+    .shoes-homepage-banner-video-textbox h3 {
+        font-size: 1.5rem;
+    }
+
+    .shoes-homepage-banner-video-textbox {
+        width: 100%;
+    }
+
+}
+
+/* END - Homepage Video Banner Shoes CSS */
