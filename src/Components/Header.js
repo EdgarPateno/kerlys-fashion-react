@@ -1,15 +1,11 @@
-import React from 'react'
-import Carousel from 'react-bootstrap/Carousel';
+import React from 'react';
+import { Navbar, Nav, Form, Button, Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 
-const Header = () => {
+function Header() {
     return (
-        <header>
+        <header className="header">
             <div className="announcement-banner">
                 <Carousel>
                     <Carousel.Item interval={2000}>
@@ -41,7 +37,7 @@ const Header = () => {
                             <Nav.Link href="#link">Shoes</Nav.Link>
                             <Nav.Link href="#link">Our Brands</Nav.Link>
                         </Nav>
-                        <Nav className='justify-content-end'>
+                        <Nav className="justify-content-end">
                             <Form className="d-flex">
                                 <Form.Control
                                     type="search"
@@ -56,7 +52,7 @@ const Header = () => {
                 </div>
             </Navbar>
         </header>
-    )
+    );
 }
 
-export default Header
+export default Header;

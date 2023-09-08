@@ -10,8 +10,7 @@ import ElevateFashionImageBanner from './Components/ElevateFashionImageBanner';
 import WomenBagsJewelryImageBanner from './Components/WomenBagsJewelryImageBanner';
 import HomepageVideoBannerShoes from './Components/HomepageVideoBannerShoes';
 import FeaturedProductsCarousel from './Components/FeaturedProductsCarousel';
-import 'animate.css';
-
+import JewelryVideoBanner from './Components/JewelryVideoBanner';
 
 function App() {
   return (
@@ -27,6 +26,7 @@ function App() {
       <ElevateFashionImageBanner />
       <WomenBagsJewelryImageBanner />
       <HomepageVideoBannerShoes />
+      <JewelryVideoBanner />
     </div>
   );
 }

@@ -13,7 +13,6 @@ const WomenBagsJewelryImageBanner = () => {
                 width="auto"
                 height="auto"
                 alt="Woman holding a bag"
-                className='animate__animated animate__flipInY'
               />
               <h2 className="text-center">BAGS</h2>
             </div>
@@ -23,7 +22,6 @@ const WomenBagsJewelryImageBanner = () => {
             <div className="womens-jewellery-text-overlay">
               <img
                 src="./images/image-banners/women-bag-jewelry-image-banner-jewelry.webp"
-                data-aos="flip-left"
                 width="auto"
                 height="auto"
                 alt="Woman wearing jewellery"
