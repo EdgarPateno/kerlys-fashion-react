@@ -1,4 +1,8 @@
 /* Jewelry Video Banner Homepage CSS */
+section.jewelry-video-banner-homepage {
+    margin: 4rem 0;
+}
+
 .jewelry-video-banner-homepage .container-liquid {
     position: relative;
 }

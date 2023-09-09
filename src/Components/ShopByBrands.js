@@ -2,7 +2,7 @@ import '../CSS/ShopByBrands.css';
 
 function ShopByBrands() {
     return (
-        <sections className='shop-by-brands py-5'>
+        <section className='shop-by-brands'>
             <div className="container-sm">
                 <h3 className="text-center mb-4 h1">SHOP BY BRANDS</h3>
                 <div className="row row-cols-2 row-cols-md-4 justify-content-center g-4">
@@ -76,7 +76,7 @@ function ShopByBrands() {
                     </div>
                 </div>
             </div>
-        </sections>
+        </section>
     );
 }
 

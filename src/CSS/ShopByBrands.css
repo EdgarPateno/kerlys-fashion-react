@@ -1,4 +1,8 @@
 /* ShopByBrands CSS */
+section.shop-by-brands {
+    margin: 4rem 0;
+}
+
 .shop-by-brands .card {
     border: none;
 }

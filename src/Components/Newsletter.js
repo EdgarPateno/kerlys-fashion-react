@@ -1,9 +1,9 @@
-import React from 'react';
+import '../CSS/Newsletter.css';
 
 const Newsletter = () => {
     return (
-        <section className="newsletter" style={{ backgroundImage: `url('../images/background-photos/newsletter-background-image.webp')` }}>
-            <div className="container p-4">
+        <section className="newsletter">
+            <div className="container">
                 <h2 className="text-center">Let's Stay Connected</h2>
                 <p className="text-center">Don't Miss Our Promotion. Sign up to get your 20% discount off your purchase.</p>
 

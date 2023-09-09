@@ -1,0 +1,11 @@
+section.reviews-carousel {
+    margin: 4rem 0;
+}
+
+.reviews-carousel .card {
+    border: none;
+    margin: 0 5px;
+}
+
+
+/* --------------------------------------- MOBILE RESPONSIVENESS ----------------------- */

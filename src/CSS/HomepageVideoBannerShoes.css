@@ -1,4 +1,8 @@
 /* Homepage Video Banner Shoes CSS */
+section.shoes-homepage-banner-video {
+    margin: 4rem 0;
+}
+
 .shoes-homepage-banner-video .container-liquid {
     position: relative;
 }

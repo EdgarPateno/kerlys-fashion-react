@@ -1,4 +1,8 @@
 /* Elevate Fashion Image Banner CSS */
+section.elevate-fashion-image-banner {
+    margin: 4rem 0;
+}
+
 .elevate-fashion-image-banner img {
     max-width: 100%;
 }

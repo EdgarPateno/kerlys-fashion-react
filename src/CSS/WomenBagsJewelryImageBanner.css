@@ -1,4 +1,8 @@
 /* Womens Bags Jewelry Image Banner CSS */
+section.womens-bags-jewellery-img-text-overlay {
+    margin: 4rem 0;
+}
+
 .womens-bags-jewellery-img-text-overlay img {
     max-width: 100%;
 }

@@ -1,4 +1,8 @@
 /* Featured Products Carousel CSS */
+section.featured-products-carousel {
+    margin: 4rem 0;
+}
+
 .featured-products-carousel .card {
     border: none;
     margin: 0 5px;
