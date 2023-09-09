@@ -3,10 +3,33 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../CSS/FeaturedProductsCarousel.css';
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+
+
+const PrevArrow = (props) => {
+    const { className, style, onClick } = props;
+    const arrowStyle = { ...style, display: 'block', backgroundColor: '#329BD1', fontSize: '30px' };
+    return (
+        <div className={className} style={arrowStyle} onClick={onClick}>
+            <FaArrowLeft />
+        </div>
+    );
+};
+
+const NextArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+        <div className={className} style={{ ...style, display: 'block', backgroundColor: '#329BD1' }} onClick={onClick}>
+            <FaArrowRight />
+        </div>
+    );
+};
 
 const FeaturedProductsCarousel = () => {
     const settings = {
-        dots: true,
+        //dots: true,
+        prevArrow: <PrevArrow />,
+        nextArrow: <NextArrow />,
         infinite: true,
         speed: 500,
         slidesToShow: 4, // Number of cards to show at a time
