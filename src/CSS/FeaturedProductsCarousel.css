@@ -7,3 +7,28 @@ section.featured-products-carousel {
     border: none;
     margin: 0 5px;
 }
+
+.featured-products-carousel .slick-prev,
+.featured-products-carousel .slick-prev:hover {
+    position: absolute;
+    left: -2rem;
+    width: 3rem;
+    height: 3rem;
+    transform: translate(-50%, -50%);
+    color: transparent;
+    background: #329BD1;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.featured-products-carousel .slick-next,
+.featured-products-carousel .slick-next:hover {
+    position: absolute;
+    right: -5rem;
+    width: 3rem;
+    height: 3rem;
+    transform: translate(-50%, -50%);
+    color: transparent;
+    background: #329BD1;
+    border-radius: 50%;
+}

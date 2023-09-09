@@ -31,10 +31,10 @@ const ReviewsCarousel = () => {
                         <div className="card">
                             <img src="./images/reviews-photos/1.webp" class="card-img-top" alt="Review 1" />
                             <div className="reviews-text-content text-center">
-                                <h3>Daenarys</h3>
                                 <p>
-                                    <span className='reviews regular-price'>$700 </span>
-                                    <span className='reviews sale-price'>$600</span>
+                                    <span class="quotation-mark">❝</span>
+                                    <span>These luxury heel shoes are a dream come true. Despite the height, they are incredibly comfortable to walk in. The red soles are a signature touch of elegance, and they make me feel like a fashion icon.
+                                    </span>
                                 </p>
                             </div>
                         </div>
@@ -43,10 +43,9 @@ const ReviewsCarousel = () => {
                         <div className="card">
                             <img src="./images/reviews-photos/2.webp" class="card-img-top" alt="Review 2" />
                             <div className="reviews-text-content text-center">
-                                <h3>Greyjoy</h3>
                                 <p>
-                                    <span className='reviews regular-price'>$800 </span>
-                                    <span className='reviews sale-price'>$700</span>
+                                    <span className="quotation-mark">❝</span>
+                                    <span>These heels are my go-to for a night out with friends. They're not only stylish but also comfortable enough to dance the night away. The attention to detail in the design is evident.</span>
                                 </p>
                             </div>
                         </div>
@@ -55,10 +54,11 @@ const ReviewsCarousel = () => {
                         <div className="card">
                             <img src="./images/reviews-photos/3.webp" class="card-img-top" alt="Review 3" />
                             <div className="reviews-text-content text-center">
-                                <h3>Aeliana</h3>
                                 <p>
-                                    <span className='reviews regular-price'>$900 </span>
-                                    <span className='reviews sale-price'>$800</span>
+                                    <span className='quotation-mark'>❝</span>
+                                    <span>
+                                        These heels are a classic addition to my collection. They never go out of style, and I find myself reaching for them whenever I want to make a statement with my outfit. They're a true fashion staple.
+                                    </span>
                                 </p>
                             </div>
                         </div>
@@ -67,10 +67,9 @@ const ReviewsCarousel = () => {
                         <div className="card">
                             <img src="./images/reviews-photos/review1.webp" class="card-img-top" alt="Review 4" />
                             <div className="reviews-text-content text-center">
-                                <h3>Tyene</h3>
                                 <p>
-                                    <span className='reviews regular-price'>$700 </span>
-                                    <span className='reviews sale-price'>$600</span>
+                                    <span className="quotation-mark">❝</span>
+                                    <span>I received these earrings and bracelets as a gift, and they've become my cherished pieces of jewelry. The symbolism behind the charm makes them even more special.</span>
                                 </p>
                             </div>
                         </div>
@@ -79,10 +78,9 @@ const ReviewsCarousel = () => {
                         <div className="card">
                             <img src="./images/reviews-photos/review2.webp" class="card-img-top" alt="Review 5" />
                             <div className="reviews-text-content text-center">
-                                <h3>Gilly</h3>
                                 <p>
-                                    <span className='reviews regular-price'>$900 </span>
-                                    <span className='reviews sale-price'>$800</span>
+                                    <span className="quotation-mark">❝</span>
+                                    <span>These earrings are absolutely gorgeous! The intricate design and sparkling gems make them perfect for a special occasion. I received so many compliments when I wore them to a wedding.</span>
                                 </p>
                             </div>
                         </div>
@@ -91,10 +89,9 @@ const ReviewsCarousel = () => {
                         <div className="card">
                             <img src="./images/reviews-photos/review6.webp" class="card-img-top" alt="Review 6" />
                             <div className="reviews-text-content text-center">
-                                <h3>Idylle </h3>
                                 <p>
-                                    <span className='reviews regular-price'>$900 </span>
-                                    <span className='reviews sale-price'>$800</span>
+                                    <span className="quotation-mark">❝</span>
+                                    <span>I love how versatile and elegant this bag is. It complements both formal and casual outfits effortlessly. The luxury color makes it a timeless addition to my collection.</span>
                                 </p>
                             </div>
                         </div>

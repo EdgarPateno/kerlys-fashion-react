@@ -7,5 +7,34 @@ section.reviews-carousel {
     margin: 0 5px;
 }
 
+.quotation-mark {
+    color: #329BD1;
+    font-size: 2rem;
+}
+
+.reviews-carousel .slick-prev,
+.reviews-carousel .slick-prev:hover {
+    position: absolute;
+    left: -2rem;
+    width: 3rem;
+    height: 3rem;
+    transform: translate(-50%, -50%);
+    color: transparent;
+    background: #329BD1;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.reviews-carousel .slick-next,
+.reviews-carousel .slick-next:hover {
+    position: absolute;
+    right: -5rem;
+    width: 3rem;
+    height: 3rem;
+    transform: translate(-50%, -50%);
+    color: transparent;
+    background: #329BD1;
+    border-radius: 50%;
+}
 
 /* --------------------------------------- MOBILE RESPONSIVENESS ----------------------- */

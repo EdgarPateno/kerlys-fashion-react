@@ -66,7 +66,7 @@ function Footer() {
 
             <div className="footer-bottom pb-5">
                 <div className="container-fluid">
-                    <div className="d-flex justify-content-between align-items-center">
+                    <div className="copyright-payment-icons-wrapper d-block justify-content-between align-items-center">
                         <div className="copyright-footer p-3">
                             <span>&copy; Copyright 2022, </span>
                             <span className="site-logo-footer-bottom me-2">

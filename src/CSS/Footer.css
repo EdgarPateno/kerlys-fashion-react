@@ -23,8 +23,11 @@
     font-size: 1.5rem;
 }
 
-.footer-bottom .copyright-footer span,
-.site-logo-footer-bottom a {
+.footer-bottom .copyright-footer span {
     color: #fff;
+}
+
+.site-logo-footer-bottom a {
+    color: #329BD1;
     text-decoration: none;
 }
