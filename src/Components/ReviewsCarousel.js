@@ -29,10 +29,10 @@ const ReviewsCarousel = () => {
                 <Slider {...settings}>
                     <div className='reviews-content-wrapper'>
                         <div className="card">
-                            <img src="./images/reviews-photos/1.webp" class="card-img-top" alt="Review 1" />
+                            <img src="./images/reviews-photos/1.webp" className="card-img-top" alt="Review 1" />
                             <div className="reviews-text-content text-center">
                                 <p>
-                                    <span class="quotation-mark">❝</span>
+                                    <span className="quotation-mark">❝</span>
                                     <span>These luxury heel shoes are a dream come true. Despite the height, they are incredibly comfortable to walk in. The red soles are a signature touch of elegance, and they make me feel like a fashion icon.
                                     </span>
                                 </p>
@@ -41,7 +41,7 @@ const ReviewsCarousel = () => {
                     </div>
                     <div className='reviews-content-wrapper'>
                         <div className="card">
-                            <img src="./images/reviews-photos/2.webp" class="card-img-top" alt="Review 2" />
+                            <img src="./images/reviews-photos/2.webp" className="card-img-top" alt="Review 2" />
                             <div className="reviews-text-content text-center">
                                 <p>
                                     <span className="quotation-mark">❝</span>
@@ -52,7 +52,7 @@ const ReviewsCarousel = () => {
                     </div>
                     <div className='reviews-content-wrapper'>
                         <div className="card">
-                            <img src="./images/reviews-photos/3.webp" class="card-img-top" alt="Review 3" />
+                            <img src="./images/reviews-photos/3.webp" className="card-img-top" alt="Review 3" />
                             <div className="reviews-text-content text-center">
                                 <p>
                                     <span className='quotation-mark'>❝</span>
@@ -65,7 +65,7 @@ const ReviewsCarousel = () => {
                     </div>
                     <div className='reviews-content-wrapper'>
                         <div className="card">
-                            <img src="./images/reviews-photos/review1.webp" class="card-img-top" alt="Review 4" />
+                            <img src="./images/reviews-photos/review1.webp" className="card-img-top" alt="Review 4" />
                             <div className="reviews-text-content text-center">
                                 <p>
                                     <span className="quotation-mark">❝</span>
@@ -76,7 +76,7 @@ const ReviewsCarousel = () => {
                     </div>
                     <div className='reviews-content-wrapper'>
                         <div className="card">
-                            <img src="./images/reviews-photos/review2.webp" class="card-img-top" alt="Review 5" />
+                            <img src="./images/reviews-photos/review2.webp" className="card-img-top" alt="Review 5" />
                             <div className="reviews-text-content text-center">
                                 <p>
                                     <span className="quotation-mark">❝</span>
@@ -87,7 +87,7 @@ const ReviewsCarousel = () => {
                     </div>
                     <div className='reviews-content-wrapper'>
                         <div className="card">
-                            <img src="./images/reviews-photos/review6.webp" class="card-img-top" alt="Review 6" />
+                            <img src="./images/reviews-photos/review6.webp" className="card-img-top" alt="Review 6" />
                             <div className="reviews-text-content text-center">
                                 <p>
                                     <span className="quotation-mark">❝</span>

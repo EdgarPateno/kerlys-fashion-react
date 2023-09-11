@@ -1,10 +1,10 @@
 import '../CSS/HomepageVideoBannerBag.css';
 
-function HomepageBannerBag() {
+function HomepageVideoBannerBag() {
     return (
         <section className="homepage-video-banner-bag">
             <div className="container-liquid">
-                <video width="100%" noControls autoPlay loop muted>
+                <video width="100%" nocontrols="true" autoPlay loop muted>
                     <source src="videos/homepage-banner-2-video-louis-vuitton-bag.mp4" type="video/mp4" />
                 </video>
                 <div className="homepage-video-banner-bag-textbox">
@@ -19,4 +19,4 @@ function HomepageBannerBag() {
     );
 }
 
-export default HomepageBannerBag; 
+export default HomepageVideoBannerBag; 

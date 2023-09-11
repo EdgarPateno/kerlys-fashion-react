@@ -31,7 +31,7 @@ const FeaturedProductsCarousel = () => {
                 <Slider {...settings}>
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
-                            <img src="./images/featured-products-carousel/1.webp" class="card-img-top" alt="Featured Product 1" />
+                            <img src="./images/featured-products-carousel/1.webp" className="card-img-top" alt="Featured Product 1" />
                             <div className="featured-product-text-content text-center">
                                 <h3>Daenarys</h3>
                                 <p>
@@ -43,7 +43,7 @@ const FeaturedProductsCarousel = () => {
                     </div>
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
-                            <img src="./images/featured-products-carousel/2.webp" class="card-img-top" alt="Featured Product 2" />
+                            <img src="./images/featured-products-carousel/2.webp" className="card-img-top" alt="Featured Product 2" />
                             <div className="featured-product-text-content text-center">
                                 <h3>Greyjoy</h3>
                                 <p>
@@ -55,7 +55,7 @@ const FeaturedProductsCarousel = () => {
                     </div>
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
-                            <img src="./images/featured-products-carousel/3.webp" class="card-img-top" alt="Featured Product 3" />
+                            <img src="./images/featured-products-carousel/3.webp" className="card-img-top" alt="Featured Product 3" />
                             <div className="featured-product-text-content text-center">
                                 <h3>Aeliana</h3>
                                 <p>
@@ -67,7 +67,7 @@ const FeaturedProductsCarousel = () => {
                     </div>
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
-                            <img src="./images/featured-products-carousel/4.webp" class="card-img-top" alt="Featured Product 4" />
+                            <img src="./images/featured-products-carousel/4.webp" className="card-img-top" alt="Featured Product 4" />
                             <div className="featured-product-text-content text-center">
                                 <h3>Tyene</h3>
                                 <p>
@@ -79,7 +79,7 @@ const FeaturedProductsCarousel = () => {
                     </div>
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
-                            <img src="./images/featured-products-carousel/5.webp" class="card-img-top" alt="Featured Product 5" />
+                            <img src="./images/featured-products-carousel/5.webp" className="card-img-top" alt="Featured Product 5" />
                             <div className="featured-product-text-content text-center">
                                 <h3>Gilly</h3>
                                 <p>
@@ -91,7 +91,7 @@ const FeaturedProductsCarousel = () => {
                     </div>
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
-                            <img src="./images/featured-products-carousel/6.webp" class="card-img-top" alt="Featured Product 6" />
+                            <img src="./images/featured-products-carousel/6.webp" className="card-img-top" alt="Featured Product 6" />
                             <div className="featured-product-text-content text-center">
                                 <h3>Idylle </h3>
                                 <p>
