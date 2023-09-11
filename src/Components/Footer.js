@@ -1,4 +1,5 @@
 import '../CSS/Footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -10,9 +11,9 @@ function Footer() {
                             <div className="card-body">
                                 <h5 className="card-title">Customer Help</h5>
                                 <ul className="list-unstyled">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                    <li><a href="#">FAQs</a></li>
+                                    <li><Link to="/about">About Us</Link></li>
+                                    <li><Link to="/contact">Contact Us</Link></li>
+                                    <li><Link to="/faq">FAQs</Link></li>
                                     <li><a href="#">Track Your Order</a></li>
                                 </ul>
                             </div>

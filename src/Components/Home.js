@@ -8,7 +8,6 @@ import WomenBagsJewelryImageBanner from './WomenBagsJewelryImageBanner';
 import HomepageVideoBannerShoes from './HomepageVideoBannerShoes';
 import JewelryVideoBanner from './JewelryVideoBanner';
 import ReviewsCarousel from './ReviewsCarousel';
-import Newsletter from './Newsletter';
 
 function Home() {
     return (
@@ -21,7 +20,6 @@ function Home() {
             <HomepageVideoBannerShoes />
             <JewelryVideoBanner />
             <ReviewsCarousel />
-            <Newsletter />
         </div>
     );
 }

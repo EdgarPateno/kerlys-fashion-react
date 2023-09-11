@@ -1,8 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Navbar, Nav, Form, Button, Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../CSS/Header.css';
-// import '../App.css';
 
 function Header() {
     return (
@@ -21,7 +21,7 @@ function Header() {
 
             <Navbar expand="lg" className="bg-body-tertiary">
                 <div className="container">
-                    <Navbar.Brand href="#home">
+                    <Link to="/">
                         <img
                             alt="Kerlys logo"
                             src="logos-icons/website_logo.webp"
@@ -29,7 +29,7 @@ function Header() {
                             height="40"
                             className="d-inline-block align-top"
                         />
-                    </Navbar.Brand>
+                    </Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mx-auto">
