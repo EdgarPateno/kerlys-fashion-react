@@ -1,5 +1,6 @@
 import React from 'react'
 import '../CSS/Bags.css'
+import { Link } from 'react-router-dom'
 
 function Bags() {
     return (
@@ -16,7 +17,7 @@ function Bags() {
                 <div className="container">
                     <div className="bags-main-nav row row-cols-2 row-cols-md-4 g-4">
                         <div className="col">
-                            <a href="/sections/aeliana-product-page.html">
+                            <Link to="/aeliana">
                                 <div className="card">
                                     <img src="/images/lv-bags-collection/louis-vuitton-capucines-baby-blue.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Aeliana Baby Blue Bag" />
@@ -34,7 +35,7 @@ function Bags() {
                                         <h5 className="regular-price text-center">$600</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
