@@ -1,5 +1,4 @@
 /* AnnouncementBanner CSS */
-
 .carousel-item {
     background-color: black;
     color: white;
@@ -14,3 +13,13 @@
 }
 
 /* END AnnouncementBanner CSS */
+
+/* Main Nav Menu CSS */
+.main-nav-menu1 {
+    gap: 2rem;
+}
+
+.main-nav-menu1 a {
+    color: black;
+    text-decoration: none;
+}

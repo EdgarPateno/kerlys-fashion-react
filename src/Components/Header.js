@@ -32,7 +32,7 @@ function Header() {
                     </Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mx-auto">
+                        <Nav className="mx-auto main-nav-menu1">
                             <Link to="/bags">Bags</Link>
                             <Link to="/jewelry">Jewelry</Link>
                             <Link to="/shoes">Shoes</Link>

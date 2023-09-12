@@ -40,10 +40,3 @@ body {
   font-weight: 700;
   font-size: 1.5rem;
 }
-
-/* global section css on mobile */
-@media screen and (max-width: 430px) {
-  section {
-    margin: 2rem 0 !important;
-  }
-}
