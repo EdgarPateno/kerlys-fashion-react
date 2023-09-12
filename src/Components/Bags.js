@@ -1,10 +1,11 @@
 import React from 'react'
+import '../CSS/Bags.css'
 
 function Bags() {
     return (
         <section className="all-bags-main-nav-banner">
             <div className="container-liquid">
-                <img src="/images/all-bags-main-nav-image-banner.webp" width="auto" height="auto"
+                <img src="/images/image-banners/bags-menu-image-banner.webp" width="auto" height="auto"
                     alt="Woman on the stairs wearing a bag" />
                 <div className="all-bags-main-nav-banner-title">
                     <h2 className="text-center">Our Collection of Luxury Bags</h2>

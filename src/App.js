@@ -9,6 +9,7 @@ import About from './Components/About';
 import ContactUs from './Components/ContactUs';
 import Newsletter from './Components/Newsletter';
 import FAQ from './Components/FAQ';
+import Bags from './Components/Bags';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<ContactUs />}></Route>
         <Route path="/faq" element={<FAQ />}></Route>
+        <Route path="/bags" element={<Bags />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
