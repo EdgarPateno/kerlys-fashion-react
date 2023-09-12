@@ -34,9 +34,9 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mx-auto">
                             <Link to="/bags">Bags</Link>
-                            <Nav.Link href="#link">Jewelry</Nav.Link>
-                            <Nav.Link href="#link">Shoes</Nav.Link>
-                            <Nav.Link href="#link">Our Brands</Nav.Link>
+                            <Link to="/jewelry">Jewelry</Link>
+                            <Link to="/shoes">Shoes</Link>
+                            <Link to="/our-brands">Our Brands</Link>
                         </Nav>
                         <Nav className="justify-content-end">
                             <Form className="d-flex">

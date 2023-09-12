@@ -10,6 +10,7 @@ import ContactUs from './Components/ContactUs';
 import Newsletter from './Components/Newsletter';
 import FAQ from './Components/FAQ';
 import Bags from './Components/Bags';
+import Jewelry from './Components/Jewelry';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/contact" element={<ContactUs />}></Route>
         <Route path="/faq" element={<FAQ />}></Route>
         <Route path="/bags" element={<Bags />}></Route>
+        <Route path="/jewelry" element={<Jewelry />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
