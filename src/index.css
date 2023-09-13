@@ -1,13 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -39,4 +29,9 @@ body {
   color: #329BD1;
   font-weight: 700;
   font-size: 1.5rem;
+}
+
+/* global fa fa-start */
+.fa.fa-star {
+  color: orangered;
 }
