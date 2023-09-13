@@ -14,6 +14,7 @@ import Jewelry from './Components/Jewelry';
 import Shoes from './Components/Shoes';
 import OurBrands from './Components/OurBrands';
 import Aeliana from './Components/Aeliana';
+import Cart from './Components/Cart';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/shoes" element={<Shoes />}></Route>
         <Route path="/our-brands" element={<OurBrands />}></Route>
         <Route path="/aeliana" element={<Aeliana />}></Route>
+        <Route path="/cart" element={<Cart />}></Route>
       </Routes>
       <Newsletter />
       <Footer />

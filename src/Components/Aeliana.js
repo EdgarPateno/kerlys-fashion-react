@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../CSS/Aeliana.css'
 
 const Aeliana = () => {
@@ -39,6 +40,21 @@ const Aeliana = () => {
     useEffect(() => {
         showSlides(slideIndex);
     }, []);
+
+    const navigate = useNavigate();
+
+    const handleAddToCart = () => {
+        // Redirect to the cart page
+        navigate('/cart', {
+            state: {
+                title: 'Aeliana',
+                image: '/images/product-photos/aeliana/1.webp',
+                price: 600,
+                quantity: quantity,
+                subtotal: 600 * quantity,
+            },
+        });
+    }
 
     return (
         <div>
@@ -138,7 +154,8 @@ const Aeliana = () => {
                                 </div>
 
                                 <div className="add-to-cart-button my-4">
-                                    <button id="addToCartButton" className="btn btn-primary" style={{ width: '150px' }}>Add to Cart</button>
+                                    <button id="addToCartButton" className="btn btn-primary" style={{ width: '150px' }} onClick={handleAddToCart}>Add to Cart</button>
+
                                 </div>
 
                                 <div className="productpage-secure-checkout-content">
