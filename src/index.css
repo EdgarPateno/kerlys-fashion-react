@@ -22,6 +22,7 @@
 .regular-price {
   text-decoration: line-through;
   margin-right: 5px;
+  font-size: 1rem;
 }
 
 /* global sale price */
@@ -29,6 +30,7 @@
   color: #329BD1;
   font-weight: 700;
   font-size: 1.5rem;
+  margin-right: 5px;
 }
 
 /* global fa fa-start */

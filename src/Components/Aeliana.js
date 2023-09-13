@@ -104,7 +104,9 @@ const Aeliana = () => {
                                     <span className='ms-2'>300 Trusted Reviews</span>
                                 </small>
                                 <h5 className="h1" id="productTitle">Aeliana</h5>
-                                <div className="h5" id="productPrice">$600 USD <del className="mx-2">$700</del>
+                                <div className="h5 d-flex align-items-center" id="productPrice">
+                                    <span className="regular-price">$700</span>
+                                    <span className="sale-price">$600</span>
                                     <span id="save-badge" className="badge badge-save50 bg-danger">Save
                                         $100</span>
                                 </div>
