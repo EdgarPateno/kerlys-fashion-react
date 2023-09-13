@@ -19,7 +19,7 @@ function Bags() {
                         <div className="col">
                             <Link to="/aeliana">
                                 <div className="card">
-                                    <img src="/images/lv-bags-collection/louis-vuitton-capucines-baby-blue.webp" width="auto" height="auto"
+                                    <img src="/images/product-photos/aeliana/1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Aeliana Baby Blue Bag" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Aeliana</h3>
