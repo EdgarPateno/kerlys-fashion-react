@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/EdgarPateno/kerlys-fashion-react/static/css/main.798dc0eb.css",
-    "main.js": "/EdgarPateno/kerlys-fashion-react/static/js/main.ef2b3e59.js",
-    "static/media/newsletter-background-image.webp": "/EdgarPateno/kerlys-fashion-react/static/media/newsletter-background-image.dc8026659c8d2a068558.webp",
-    "static/media/slick.svg": "/EdgarPateno/kerlys-fashion-react/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/EdgarPateno/kerlys-fashion-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/EdgarPateno/kerlys-fashion-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/EdgarPateno/kerlys-fashion-react/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/EdgarPateno/kerlys-fashion-react/index.html",
-    "main.798dc0eb.css.map": "/EdgarPateno/kerlys-fashion-react/static/css/main.798dc0eb.css.map",
-    "main.ef2b3e59.js.map": "/EdgarPateno/kerlys-fashion-react/static/js/main.ef2b3e59.js.map"
+    "main.css": "/kerlys-fashion-react/static/css/main.fe140acf.css",
+    "main.js": "/kerlys-fashion-react/static/js/main.63f81ed5.js",
+    "static/media/newsletter-background-image.webp": "/kerlys-fashion-react/static/media/newsletter-background-image.dc8026659c8d2a068558.webp",
+    "static/media/slick.svg": "/kerlys-fashion-react/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/kerlys-fashion-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/kerlys-fashion-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/kerlys-fashion-react/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/kerlys-fashion-react/index.html",
+    "main.fe140acf.css.map": "/kerlys-fashion-react/static/css/main.fe140acf.css.map",
+    "main.63f81ed5.js.map": "/kerlys-fashion-react/static/js/main.63f81ed5.js.map"
   },
   "entrypoints": [
-    "static/css/main.798dc0eb.css",
-    "static/js/main.ef2b3e59.js"
+    "static/css/main.fe140acf.css",
+    "static/js/main.63f81ed5.js"
   ]
 }
