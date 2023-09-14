@@ -9,11 +9,11 @@ const Cart = () => {
     return (
         <section className="cart-page">
             <h1 className="cart-page-title text-center">Review Your Cart</h1>
-            <p>Title: {title}</p>
+            <p>{title}</p>
             <img src={image} alt="Product Image" />
-            <p>Price: ${price}</p>
-            <p>Quantity: {quantity}</p>
-            <p>Subtotal: ${subtotal}</p>
+            <p>${price}</p>
+            <p>{quantity}</p>
+            <p>${subtotal}</p>
         </section>
     );
 }
