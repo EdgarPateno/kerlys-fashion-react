@@ -31,14 +31,14 @@ function Header() {
                         />
                     </Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Navbar.Collapse id="basic-navbar-nav" className="menus-search-carticon">
                         <Nav className="mx-auto main-nav-menu1">
                             <Link to="/bags">Bags</Link>
                             <Link to="/jewelry">Jewelry</Link>
                             <Link to="/shoes">Shoes</Link>
                             <Link to="/our-brands">Our Brands</Link>
                         </Nav>
-                        <Nav className="justify-content-end align-items-center">
+                        <Nav className="main-nav-menu2 justify-content-end align-items-center">
                             <Form className="d-flex me-2">
                                 <Form.Control
                                     type="search"
@@ -57,7 +57,7 @@ function Header() {
                     </Navbar.Collapse>
                 </div>
             </Navbar>
-        </header>
+        </header >
     );
 }
 

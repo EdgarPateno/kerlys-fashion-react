@@ -34,4 +34,18 @@
 }
 
 
-/* END Main Nav Menu CSS */
+/*------------------------ MOBILE RESPONSIVENESS ------------------------*/
+
+@media screen and (max-width: 430px) {
+    .main-nav .menus-search-carticon {
+        margin-top: 2rem;
+    }
+
+    .main-nav .main-nav-menu2 {
+        align-items: flex-start !important;
+    }
+
+    .main-nav .main-nav-menu2 form {
+        margin: 1rem 0;
+    }
+}

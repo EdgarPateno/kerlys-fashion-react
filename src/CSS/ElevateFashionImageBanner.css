@@ -29,10 +29,11 @@ section.elevate-fashion-image-banner {
     color: white;
 }
 
-@media screen and (max-width: 430px) {
+/*------------------- MOBILE RESONSIVENESS -------------------*/
+
+@media only screen and (max-width: 430px) {
+
     .elevate-fashion-text-overlay-box h3 {
         font-size: 1.5rem;
     }
 }
-
-/* END Elevate Fashion Image Banner CSS */
