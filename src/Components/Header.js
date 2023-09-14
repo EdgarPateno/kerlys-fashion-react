@@ -19,7 +19,7 @@ function Header() {
                 </Carousel>
             </div>
 
-            <Navbar expand="lg" className="bg-body-tertiary">
+            <Navbar expand="lg" className="main-nav bg-body-tertiary">
                 <div className="container">
                     <Link to="/">
                         <img
@@ -38,8 +38,8 @@ function Header() {
                             <Link to="/shoes">Shoes</Link>
                             <Link to="/our-brands">Our Brands</Link>
                         </Nav>
-                        <Nav className="justify-content-end">
-                            <Form className="d-flex">
+                        <Nav className="justify-content-end align-items-center">
+                            <Form className="d-flex me-2">
                                 <Form.Control
                                     type="search"
                                     placeholder="Search"
@@ -48,6 +48,11 @@ function Header() {
                                 />
                                 <Button variant="btn btn-primary">Search</Button>
                             </Form>
+                            <Link to="/cart">
+                                <div id="navbar-cart-icon" className="d-flex">
+                                    <span><i className="fa fa-shopping-cart"></i></span>
+                                </div>
+                            </Link>
                         </Nav>
                     </Navbar.Collapse>
                 </div>

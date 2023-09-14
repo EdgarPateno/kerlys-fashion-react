@@ -15,6 +15,10 @@
 /* END AnnouncementBanner CSS */
 
 /* Main Nav Menu CSS */
+.header .main-nav .container {
+    padding: 0 10px !important;
+}
+
 .main-nav-menu1 {
     gap: 2rem;
 }
@@ -23,3 +27,11 @@
     color: black;
     text-decoration: none;
 }
+
+.header #navbar-cart-icon>span>i {
+    color: #329BD1;
+    font-size: 2rem;
+}
+
+
+/* END Main Nav Menu CSS */
