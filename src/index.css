@@ -46,3 +46,19 @@
 .fa-cc-paypal {
   font-size: 2rem;
 }
+
+
+
+/*--------------------------- MOBILE RESPONSIVENESS ---------------------------*/
+@media (max-width: 430px) {
+
+  #product-tabs,
+  .tab-content #description {
+    display: none !important;
+  }
+
+  #product-accordion {
+    display: block !important;
+    margin-top: 1rem;
+  }
+}

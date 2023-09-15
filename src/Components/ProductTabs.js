@@ -1,10 +1,9 @@
-// ProductTabs.js
 
 import React from 'react';
 
 const ProductTabs = ({ activeTab, setActiveTab }) => {
     return (
-        <div>
+        <div id="product-tabs">
             <ul className="nav nav-tabs">
                 <li className="nav-item">
                     <button

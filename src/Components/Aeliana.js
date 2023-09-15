@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../CSS/Aeliana.css'
 import ProductTabs from './ProductTabs';
+import ProductAccordion from './ProductAccordion';
 
 const Aeliana = () => {
 
@@ -178,7 +179,7 @@ const Aeliana = () => {
             <section className="container">
                 <ProductTabs activeTab={activeTab} setActiveTab={setActiveTab} />
                 <div className="tab-content">
-                    <div className={`tab-pane ${activeTab === 'description' ? 'active' : ''}`}>
+                    <div id="description" className={`tab-pane ${activeTab === 'description' ? 'active' : ''}`}>
                         <p className="mt-4">
                             Introducing the exquisite Aeliana Luxury Bag – a true embodiment of elegance and sophistication. Crafted
                             with the utmost precision and attention to detail, this masterpiece redefines luxury in every sense.</p>
@@ -193,6 +194,7 @@ const Aeliana = () => {
                             your impeccable taste.</p>
                     </div>
                 </div>
+                <ProductAccordion />
             </section>
         </div>
 

@@ -3,3 +3,10 @@ section.newsletter {
     margin: 4rem 0 1.6rem;
     padding: 4rem 0;
 }
+
+/*--------------------------MOBILE RESPONSIVENESS END--------------------------*/
+@media screen and (max-width: 430px) {
+    section.newsletter {
+        margin: 2rem 0 1.6rem;
+    }
+}
