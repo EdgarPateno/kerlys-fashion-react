@@ -58,6 +58,11 @@ const ProductTabs = ({ activeTab, setActiveTab }) => {
                     <p>When you receive your order and want to exchange it with a different product, it MUST be unopened, unused, in original packaging, and with all the labels. First, you will need to contact us stating your reason for exchange. Then, you will need to ship the original order back to us, at your own expense. Once we receive it, we will inspect if it's unopened, unused, in original packaging, and with all the labels. Then, we will issue a store credit in the form of a code, and you will use that code to make a new purchase.</p>
                     <p>When you receive your order and have changed your mind and you want to return it, it MUST be unopened, unused, in original packaging, and with all the labels. First, you will need to contact us stating your reason for returning the item/s. Then, you will need to ship the original order back to us, at your own expense. Once we receive it, we will inspect if it's unopened, unused, in original packaging, and with all the labels. Then, we will issue a store credit only in the </p>
                 </div>
+
+                <div className={`tab-pane ${activeTab === 'guarantee' ? 'active' : ''}`}>
+                    <p className="mt-4">At KERLYS FASHION, we take great pride in the craftsmanship and quality of our luxury shoes. We stand firmly behind the excellence of our products and offer a comprehensive guarantee to ensure your absolute satisfaction.
+                    </p>
+                </div>
             </div>
         </div>
 
