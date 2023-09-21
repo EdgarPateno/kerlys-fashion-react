@@ -16,13 +16,12 @@ import OurBrands from './Components/OurBrands';
 import Aeliana from './Components/Aeliana';
 import Arya from './Components/Arya';
 import Calliope from './Components/Calliope';
+import Cassia from './Components/Cassia';
 
 function App() {
   return (
 
     <div>
-      <CookieConsent />
-      <TawkTo />
       <Header />
       <Routes>
         <Route path="/" element={<Home />}></Route>
@@ -36,9 +35,12 @@ function App() {
         <Route path="/aeliana" element={<Aeliana />}></Route>
         <Route path="/arya" element={<Arya />}></Route>
         <Route path="/calliope" element={<Calliope />}></Route>
+        <Route path="/cassia" element={<Cassia />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
+      <CookieConsent />
+      <TawkTo />
     </div>
 
   )
