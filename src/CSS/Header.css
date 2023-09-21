@@ -1,4 +1,8 @@
 /* AnnouncementBanner CSS */
+.announcement-banner .slide {
+    display: block !important;
+}
+
 .carousel-item {
     background-color: black;
     color: white;

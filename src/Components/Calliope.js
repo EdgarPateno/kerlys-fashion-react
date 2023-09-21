@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import ProductTabs from './ProductTabs';
 import ProductAccordion from './ProductAccordion';
 import ProductGallerySlides from './ProductGallerySlides';
+import '../CSS/Calliope.css';
 
 const Calliope = () => {
 
