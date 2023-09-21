@@ -61,9 +61,9 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <a href="/sections/calliope-product-page.html">
+                            <Link to="/calliope">
                                 <div className="card">
-                                    <img src="/images/lv-bags-collection/louis-vuitton-lv-x-yk-onthego-fish.webp" width="auto" height="auto"
+                                    <img src="/images/product-photos/calliope/calliope-1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Calliope Bag" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Calliope</h3>
@@ -79,7 +79,7 @@ function Bags() {
                                         <h5 className="regular-price text-center">$700</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">

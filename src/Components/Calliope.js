@@ -1,24 +1,23 @@
-import React, { useState } from 'react';
-import '../CSS/Arya.css'
+import React, { useState } from 'react'
 import ProductTabs from './ProductTabs';
 import ProductAccordion from './ProductAccordion';
 import ProductGallerySlides from './ProductGallerySlides';
 
-const Arya = () => {
+const Calliope = () => {
+
     const [quantity, setQuantity] = useState(1);
     const [activeTab, setActiveTab] = useState('description');
 
     const productImages = [
-        '/images/product-photos/arya/arya-1.webp',
-        '/images/product-photos/arya/arya-2.webp',
-        '/images/product-photos/arya/arya-3.webp',
-        '/images/product-photos/arya/arya-4.webp',
-        '/images/product-photos/arya/arya-5.webp',
+        '/images/product-photos/calliope/calliope-1.webp',
+        '/images/product-photos/calliope/calliope-2.webp',
+        '/images/product-photos/calliope/calliope-3.webp',
+        '/images/product-photos/calliope/calliope-4.webp',
+        '/images/product-photos/calliope/calliope-5.webp',
     ]
-
     return (
         <div className="mt-5">
-            <section className="arya-product-page container-sm">
+            <section className="calliope-product-page container-sm">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
                     <div className="col">
                         <ProductGallerySlides images={productImages} />
@@ -35,7 +34,7 @@ const Arya = () => {
                                     <span className="fa fa-star checked"></span>
                                     <span className='ms-2'>300 Trusted Reviews</span>
                                 </small>
-                                <h5 className="h1" id="productTitle">Arya</h5>
+                                <h5 className="h1" id="productTitle">Calliope</h5>
                                 <div className="h5 d-flex align-items-center" id="productPrice">
                                     <span className="regular-price">$700</span>
                                     <span className="sale-price">$600</span>
@@ -92,7 +91,7 @@ const Arya = () => {
                 <div className="tab-content">
                     <div id="description" className={`tab-pane ${activeTab === 'description' ? 'active' : ''}`}>
                         <p className="mt-4">
-                            Introducing the exquisite Arya Luxury Bag – a true embodiment of elegance and sophistication. Crafted
+                            Introducing the exquisite Aeliana Luxury Bag – a true embodiment of elegance and sophistication. Crafted
                             with the utmost precision and attention to detail, this masterpiece redefines luxury in every sense.</p>
 
                         <p>Enveloped in the gentle embrace of a soothing baby blue hue, the Aeliana Luxury Bag exudes an aura of
@@ -108,8 +107,7 @@ const Arya = () => {
                 <ProductAccordion />
             </section>
         </div>
-
     )
 }
 
-export default Arya;
+export default Calliope;

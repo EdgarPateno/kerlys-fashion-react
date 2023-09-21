@@ -15,6 +15,7 @@ import Shoes from './Components/Shoes';
 import OurBrands from './Components/OurBrands';
 import Aeliana from './Components/Aeliana';
 import Arya from './Components/Arya';
+import Calliope from './Components/Calliope';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/our-brands" element={<OurBrands />}></Route>
         <Route path="/aeliana" element={<Aeliana />}></Route>
         <Route path="/arya" element={<Arya />}></Route>
+        <Route path="/calliope" element={<Calliope />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
