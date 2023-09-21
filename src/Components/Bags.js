@@ -39,9 +39,9 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <a href="/sections/arya-product-page.html">
+                            <Link to="/arya">
                                 <div className="card">
-                                    <img src="/images/lv-bags-collection/louis-vuitton-capucines-mini-black.webp" width="auto" height="auto"
+                                    <img src="/images/product-photos/arya/arya-1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Arya Bag" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Arya</h3>
@@ -57,7 +57,7 @@ function Bags() {
                                         <h5 className="regular-price text-center">$650</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">

@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import '../CSS/Aeliana.css'
+import '../CSS/Arya.css'
 import ProductTabs from './ProductTabs';
 import ProductAccordion from './ProductAccordion';
 
-const Aeliana = () => {
-
+const Arya = () => {
     const [quantity, setQuantity] = useState(1);
     const [activeTab, setActiveTab] = useState('description');
 
     const showSlides = (n) => {
         let i;
-        let slides = document.getElementsByClassName("aeliana-pp-Slides");
-        let dots = document.getElementsByClassName("aeliana-pp");
+        let slides = document.getElementsByClassName("Arya-pp-Slides");
+        let dots = document.getElementsByClassName("Arya-pp");
 
         if (n > slides.length) { slideIndex = 1 }
         if (n < 1) { slideIndex = slides.length }
@@ -44,29 +43,29 @@ const Aeliana = () => {
 
     return (
         <div>
-            <section className="aeliana-product-page container-sm">
+            <section className="arya-product-page container-sm">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
                     <div className="col">
                         <div className="card my-5">
                             <div className="container">
-                                <div className="aeliana-pp-Slides">
-                                    <img src="/images/product-photos/aeliana/1.webp" style={{ width: '100%' }} />
+                                <div className="Arya-pp-Slides">
+                                    <img src="/images/product-photos/arya/arya-1.webp" style={{ width: '100%' }} />
                                 </div>
 
-                                <div className="aeliana-pp-Slides">
-                                    <img src="/images/product-photos/aeliana/2.webp" style={{ width: '100%' }} />
+                                <div className="Arya-pp-Slides">
+                                    <img src="/images/product-photos/arya/arya-2.webp" style={{ width: '100%' }} />
                                 </div>
 
-                                <div className="aeliana-pp-Slides">
-                                    <img src="/images/product-photos/aeliana/3.webp" style={{ width: '100%' }} />
+                                <div className="Arya-pp-Slides">
+                                    <img src="/images/product-photos/arya/arya-3.webp" style={{ width: '100%' }} />
                                 </div>
 
-                                <div className="aeliana-pp-Slides">
-                                    <img src="/images/product-photos/aeliana/4.webp" style={{ width: '100%' }} />
+                                <div className="Arya-pp-Slides">
+                                    <img src="/images/product-photos/arya/arya-4.webp" style={{ width: '100%' }} />
                                 </div>
 
-                                <div className="aeliana-pp-Slides">
-                                    <img src="/images/product-photos/aeliana/5.webp" style={{ width: '100%' }} />
+                                <div className="Arya-pp-Slides">
+                                    <img src="/images/product-photos/arya/arya-5.webp" style={{ width: '100%' }} />
                                 </div>
 
                                 <a className="prev" onClick={() => plusSlides(-1)}>❮</a>
@@ -75,19 +74,19 @@ const Aeliana = () => {
                                 <p>&nbsp;</p>
                                 <div className="row">
                                     <div className="column">
-                                        <img className="aeliana-pp cursor" src="/images/product-photos/aeliana/1.webp" style={{ width: '100%' }} onClick={() => currentSlide(1)} alt="aeliana bag" />
+                                        <img className="Arya-pp cursor" src="/images/product-photos/arya/arya-1.webp" style={{ width: '100%' }} onClick={() => currentSlide(1)} alt="arya bag" />
                                     </div>
                                     <div className="column">
-                                        <img className="aeliana-pp cursor" src="/images/product-photos/aeliana/2.webp" style={{ width: '100%' }} onClick={() => currentSlide(2)} alt="aeliana bag" />
+                                        <img className="Arya-pp cursor" src="/images/product-photos/arya/arya-2.webp" style={{ width: '100%' }} onClick={() => currentSlide(2)} alt="arya bag" />
                                     </div>
                                     <div className="column">
-                                        <img className="aeliana-pp cursor" src="/images/product-photos/aeliana/3.webp" style={{ width: '100%' }} onClick={() => currentSlide(3)} alt="aeliana bag" />
+                                        <img className="Arya-pp cursor" src="/images/product-photos/arya/arya-3.webp" style={{ width: '100%' }} onClick={() => currentSlide(3)} alt="arya bag" />
                                     </div>
                                     <div className="column">
-                                        <img className="aeliana-pp cursor" src="/images/product-photos/aeliana/4.webp" style={{ width: '100%' }} onClick={() => currentSlide(4)} alt="aeliana bag" />
+                                        <img className="Arya-pp cursor" src="/images/product-photos/arya/arya-4.webp" style={{ width: '100%' }} onClick={() => currentSlide(4)} alt="arya bag" />
                                     </div>
                                     <div className="column">
-                                        <img className="aeliana-pp cursor" src="/images/product-photos/aeliana/5.webp" style={{ width: '100%' }} onClick={() => currentSlide(5)} alt="aeliana bag" />
+                                        <img className="Arya-pp cursor" src="/images/product-photos/arya/arya-5.webp" style={{ width: '100%' }} onClick={() => currentSlide(5)} alt="arya bag" />
                                     </div>
                                 </div>
                             </div>
@@ -105,7 +104,7 @@ const Aeliana = () => {
                                     <span className="fa fa-star checked"></span>
                                     <span className='ms-2'>300 Trusted Reviews</span>
                                 </small>
-                                <h5 className="h1" id="productTitle">Aeliana</h5>
+                                <h5 className="h1" id="productTitle">Arya</h5>
                                 <div className="h5 d-flex align-items-center" id="productPrice">
                                     <span className="regular-price">$700</span>
                                     <span className="sale-price">$600</span>
@@ -165,7 +164,7 @@ const Aeliana = () => {
                 <div className="tab-content">
                     <div id="description" className={`tab-pane ${activeTab === 'description' ? 'active' : ''}`}>
                         <p className="mt-4">
-                            Introducing the exquisite Aeliana Luxury Bag – a true embodiment of elegance and sophistication. Crafted
+                            Introducing the exquisite Arya Luxury Bag – a true embodiment of elegance and sophistication. Crafted
                             with the utmost precision and attention to detail, this masterpiece redefines luxury in every sense.</p>
 
                         <p>Enveloped in the gentle embrace of a soothing baby blue hue, the Aeliana Luxury Bag exudes an aura of
@@ -185,4 +184,4 @@ const Aeliana = () => {
     )
 }
 
-export default Aeliana;
+export default Arya;
