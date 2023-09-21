@@ -144,7 +144,7 @@ function Bags() {
                         <div className="col">
                             <Link to="/gwenore">
                                 <div className="card">
-                                    <img src="/images/lv-bags-collection/louis-vuitton-twist-light-blue.webp" width="auto" height="auto"
+                                    <img src="/images/product-photos/gwenore/gwenore-1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Gwenore Bag" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Gwenore</h3>
