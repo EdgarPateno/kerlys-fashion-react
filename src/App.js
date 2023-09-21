@@ -15,7 +15,6 @@ import Shoes from './Components/Shoes';
 import OurBrands from './Components/OurBrands';
 import Aeliana from './Components/Aeliana';
 import Arya from './Components/Arya';
-import Cart from './Components/Cart';
 
 function App() {
   return (
@@ -35,7 +34,6 @@ function App() {
         <Route path="/our-brands" element={<OurBrands />}></Route>
         <Route path="/aeliana" element={<Aeliana />}></Route>
         <Route path="/arya" element={<Arya />}></Route>
-        <Route path="/cart" element={<Cart />}></Route>
       </Routes>
       <Newsletter />
       <Footer />

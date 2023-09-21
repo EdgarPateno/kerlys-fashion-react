@@ -1,101 +1,32 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import '../CSS/Aeliana.css'
 import ProductTabs from './ProductTabs';
 import ProductAccordion from './ProductAccordion';
+import ProductGallerySlides from './ProductGallerySlides';
 
 const Aeliana = () => {
 
     const [quantity, setQuantity] = useState(1);
     const [activeTab, setActiveTab] = useState('description');
 
-    const showSlides = (n) => {
-        let i;
-        let slides = document.getElementsByClassName("aeliana-pp-Slides");
-        let dots = document.getElementsByClassName("aeliana-pp");
-
-        if (n > slides.length) { slideIndex = 1 }
-        if (n < 1) { slideIndex = slides.length }
-
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-    }
-
-    const plusSlides = (n) => {
-        showSlides(slideIndex += n);
-    }
-
-    const currentSlide = (n) => {
-        showSlides(slideIndex = n);
-    }
-
-    let slideIndex = 1;
-
-    useEffect(() => {
-        showSlides(slideIndex);
-    }, []);
+    const productImages = [
+        '/images/product-photos/aeliana/1.webp',
+        '/images/product-photos/aeliana/2.webp',
+        '/images/product-photos/aeliana/3.webp',
+        '/images/product-photos/aeliana/4.webp',
+        '/images/product-photos/aeliana/5.webp',
+    ];
 
     return (
-        <div>
+        <div className="mt-5">
             <section className="aeliana-product-page container-sm">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
                     <div className="col">
-                        <div className="card my-5">
-                            <div className="container">
-                                <div className="aeliana-pp-Slides">
-                                    <img src="/images/product-photos/aeliana/1.webp" style={{ width: '100%' }} />
-                                </div>
-
-                                <div className="aeliana-pp-Slides">
-                                    <img src="/images/product-photos/aeliana/2.webp" style={{ width: '100%' }} />
-                                </div>
-
-                                <div className="aeliana-pp-Slides">
-                                    <img src="/images/product-photos/aeliana/3.webp" style={{ width: '100%' }} />
-                                </div>
-
-                                <div className="aeliana-pp-Slides">
-                                    <img src="/images/product-photos/aeliana/4.webp" style={{ width: '100%' }} />
-                                </div>
-
-                                <div className="aeliana-pp-Slides">
-                                    <img src="/images/product-photos/aeliana/5.webp" style={{ width: '100%' }} />
-                                </div>
-
-                                <a className="prev" onClick={() => plusSlides(-1)}>❮</a>
-                                <a className="next" onClick={() => plusSlides(1)}>❯</a>
-
-                                <p>&nbsp;</p>
-                                <div className="row">
-                                    <div className="column">
-                                        <img className="aeliana-pp cursor" src="/images/product-photos/aeliana/1.webp" style={{ width: '100%' }} onClick={() => currentSlide(1)} alt="aeliana bag" />
-                                    </div>
-                                    <div className="column">
-                                        <img className="aeliana-pp cursor" src="/images/product-photos/aeliana/2.webp" style={{ width: '100%' }} onClick={() => currentSlide(2)} alt="aeliana bag" />
-                                    </div>
-                                    <div className="column">
-                                        <img className="aeliana-pp cursor" src="/images/product-photos/aeliana/3.webp" style={{ width: '100%' }} onClick={() => currentSlide(3)} alt="aeliana bag" />
-                                    </div>
-                                    <div className="column">
-                                        <img className="aeliana-pp cursor" src="/images/product-photos/aeliana/4.webp" style={{ width: '100%' }} onClick={() => currentSlide(4)} alt="aeliana bag" />
-                                    </div>
-                                    <div className="column">
-                                        <img className="aeliana-pp cursor" src="/images/product-photos/aeliana/5.webp" style={{ width: '100%' }} onClick={() => currentSlide(5)} alt="aeliana bag" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <ProductGallerySlides images={productImages} />
                     </div>
 
                     <div className="col">
-                        <div className="card mt-5">
+                        <div className="card">
                             <div className="card-body">
                                 <small>
                                     <span className="fa fa-star checked"></span>
@@ -160,7 +91,7 @@ const Aeliana = () => {
                     </div>
                 </div>
             </section>
-            <section className="container">
+            <section className="container mt-5">
                 <ProductTabs activeTab={activeTab} setActiveTab={setActiveTab} />
                 <div className="tab-content">
                     <div id="description" className={`tab-pane ${activeTab === 'description' ? 'active' : ''}`}>
