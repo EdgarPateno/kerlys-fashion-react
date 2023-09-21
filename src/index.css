@@ -21,7 +21,7 @@
 /* global regular price */
 .regular-price {
   text-decoration: line-through;
-  margin-right: 5px;
+  margin-right: 8px;
   font-size: 1rem;
 }
 

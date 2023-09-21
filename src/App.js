@@ -17,6 +17,7 @@ import Aeliana from './Components/Aeliana';
 import Arya from './Components/Arya';
 import Calliope from './Components/Calliope';
 import Cassia from './Components/Cassia';
+import Dracarys from './Components/Dracarys';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/arya" element={<Arya />}></Route>
         <Route path="/calliope" element={<Calliope />}></Route>
         <Route path="/cassia" element={<Cassia />}></Route>
+        <Route path="/dracarys" element={<Dracarys />}></Route>
       </Routes>
       <Newsletter />
       <Footer />

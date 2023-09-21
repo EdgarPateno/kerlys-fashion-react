@@ -32,7 +32,10 @@ function Bags() {
                                             <br />
                                             <span>600 Trusted Reviews</span>
                                         </p>
-                                        <h5 className="regular-price text-center">$600</h5>
+                                        <h5 className="card-text text-center align-items-center">
+                                            <span className="regular-price">$700</span>
+                                            <span className="sale-price">$600</span>
+                                        </h5>
                                     </div>
                                 </div>
                             </Link>
@@ -54,7 +57,10 @@ function Bags() {
                                             <br />
                                             <span>650 Trusted Reviews</span>
                                         </p>
-                                        <h5 className="regular-price text-center">$650</h5>
+                                        <h5 className="card-text text-center align-items-center">
+                                            <span className="regular-price">$700</span>
+                                            <span className="sale-price">$600</span>
+                                        </h5>
                                     </div>
                                 </div>
                             </Link>
@@ -76,7 +82,10 @@ function Bags() {
                                             <br />
                                             <span>700 Trusted Reviews</span>
                                         </p>
-                                        <h5 className="regular-price text-center">$700</h5>
+                                        <h5 className="card-text text-center align-items-center">
+                                            <span className="regular-price">$700</span>
+                                            <span className="sale-price">$600</span>
+                                        </h5>
                                     </div>
                                 </div>
                             </Link>
@@ -98,16 +107,19 @@ function Bags() {
                                             <br />
                                             <span>600 Trusted Reviews</span>
                                         </p>
-                                        <h5 className="regular-price text-center">$800</h5>
+                                        <h5 className="card-text text-center align-items-center">
+                                            <span className="regular-price">$700</span>
+                                            <span className="sale-price">$600</span>
+                                        </h5>
                                     </div>
                                 </div>
                             </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/dracarys-product-page.html">
+                            <Link to="/dracarys">
                                 <div className="card">
-                                    <img src="/images/lv-bags-collection/louis-vuitton-onthego-pm.webp" width="auto" height="auto"
+                                    <img src="/images/product-photos/dracarys/dracarys-1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Dracarys Bag" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Dracarys</h3>
@@ -120,14 +132,17 @@ function Bags() {
                                             <br />
                                             <span>800 Trusted Reviews</span>
                                         </p>
-                                        <h5 className="regular-price text-center">$800</h5>
+                                        <h5 className="card-text text-center align-items-center">
+                                            <span className="regular-price">$700</span>
+                                            <span className="sale-price">$600</span>
+                                        </h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/gwenore-product-page.html">
+                            <Link to="/gwenore">
                                 <div className="card">
                                     <img src="/images/lv-bags-collection/louis-vuitton-twist-light-blue.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Gwenore Bag" />
@@ -145,11 +160,11 @@ function Bags() {
                                         <h5 className="regular-price text-center">$600</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/sansa-product-page.html">
+                            <Link to="/sansa">
                                 <div className="card">
                                     <img src="/images/lv-bags-collection/louis-vuitton-twist-light-yellow.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Sansa Bag" />
@@ -167,11 +182,11 @@ function Bags() {
                                         <h5 className="regular-price text-center">$600</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/daenarys-product-page.html">
+                            <Link to="/daenarys">
                                 <div className="card">
                                     <img src="/images/lv-bags-collection/louis-vuitton-twist-pink.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Daenarys Bag" />
@@ -189,11 +204,11 @@ function Bags() {
                                         <h5 className="regular-price text-center">$600</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/catelyn-product-page.html">
+                            <Link to="/catelyn">
                                 <div className="card">
                                     <img src="/images/chanel-bags-collection/chanel-19-large-handbag-yellow.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Catelyn Bag" />
@@ -211,11 +226,11 @@ function Bags() {
                                         <h5 className="regular-price text-center">$600</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/cersei-product-page.html">
+                            <Link to="/cersei">
                                 <div className="card">
                                     <img src="/images/chanel-bags-collection/chanel-black-2.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Cersei Bag" />
@@ -233,11 +248,11 @@ function Bags() {
                                         <h5 className="regular-price text-center">$700</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/baelish-product-page.html">
+                            <Link to="/baelish">
                                 <div className="card">
                                     <img src="/images/chanel-bags-collection/chanel-red-3.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Baelish Bag" />
@@ -255,11 +270,11 @@ function Bags() {
                                         <h5 className="regular-price text-center">$800</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/lysa-product-page.html">
+                            <Link to="/lysa">
                                 <div className="card">
                                     <img src="/images/chanel-bags-collection/chanel-yellow-1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Lysa Bag" />
@@ -277,11 +292,11 @@ function Bags() {
                                         <h5 className="regular-price text-center">$800</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/arryn-product-page.html">
+                            <Link to="/arryn">
                                 <div className="card">
                                     <img src="/images/chanel-bags-collection/mini-flap-bag-2.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Arryn Bag" />
@@ -299,7 +314,7 @@ function Bags() {
                                         <h5 className="regular-price text-center">$600</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
