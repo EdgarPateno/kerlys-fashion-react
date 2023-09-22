@@ -1,17 +1,12 @@
 import Accordion from 'react-bootstrap/Accordion';
 
-function ProductAccordion() {
+function ProductAccordion({ description }) {
     return (
         <Accordion id="product-accordion" style={{ display: 'none' }}>
             <Accordion.Item eventKey="0">
                 <Accordion.Header>Description</Accordion.Header>
                 <Accordion.Body>
-                    <p className="mt-4">
-                        Introducing the exquisite Aeliana Luxury Bag – a true embodiment of elegance and sophistication. Crafted with the utmost precision and attention to detail, this masterpiece redefines luxury in every sense.</p>
-
-                    <p>Enveloped in the gentle embrace of a soothing baby blue hue, the Aeliana Luxury Bag exudes an aura of timeless charm and refined beauty. The color evokes a sense of tranquility and grace, making it the perfect companion for any occasion, whether it be a casual outing or a glamorous soirée.</p>
-
-                    <p>Indulge in the opulence of genuine leather as your fingertips graze across the impeccably smooth surface of the Aeliana bag. This carefully selected leather not only enhances the bag's durability but also lends an air of exclusivity, ensuring that your accessory stands the test of time while becoming a symbol of yourimpeccable taste.</p>
+                    <p className="mt-4">{description}</p>
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
@@ -39,5 +34,9 @@ function ProductAccordion() {
         </Accordion>
     );
 }
+
+ProductAccordion.defaultProps = {
+    description: ""
+};
 
 export default ProductAccordion;

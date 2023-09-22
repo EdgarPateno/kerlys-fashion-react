@@ -166,7 +166,7 @@ function Bags() {
                         <div className="col">
                             <Link to="/sansa">
                                 <div className="card">
-                                    <img src="/images/lv-bags-collection/louis-vuitton-twist-light-yellow.webp" width="auto" height="auto"
+                                    <img src="/images/product-photos/sansa/sansa-1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Sansa Bag" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Sansa</h3>

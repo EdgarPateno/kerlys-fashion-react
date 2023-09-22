@@ -19,6 +19,7 @@ import Calliope from './Components/Calliope';
 import Cassia from './Components/Cassia';
 import Dracarys from './Components/Dracarys';
 import Gwenore from './Components/Gwenore';
+import Sansa from './Components/Sansa';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/cassia" element={<Cassia />}></Route>
         <Route path="/dracarys" element={<Dracarys />}></Route>
         <Route path="/gwenore" element={<Gwenore />}></Route>
+        <Route path="/sansa" element={<Sansa />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
