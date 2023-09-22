@@ -6,7 +6,7 @@ function ProductAccordion({ description }) {
             <Accordion.Item eventKey="0">
                 <Accordion.Header>Description</Accordion.Header>
                 <Accordion.Body>
-                    <p className="mt-4">{description}</p>
+                    {description}
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">

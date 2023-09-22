@@ -109,7 +109,17 @@ const Aeliana = () => {
                             your impeccable taste.</p>
                     </div>
                 </div>
-                <ProductAccordion />
+                <ProductAccordion
+                    description={
+                        <div className="mt-4">
+                            <p>Introducing the exquisite Aeliana Luxury Bag – a true embodiment of elegance and sophistication. Crafted
+                                with the utmost precision and attention to detail, this masterpiece redefines luxury in every sense.</p>
+                            <p>Enveloped in the gentle embrace of a soothing baby blue hue, the Aeliana Luxury Bag exudes an aura of
+                                timeless charm and refined beauty. The color evokes a sense of tranquility and grace, making it the
+                                perfect companion for any occasion, whether it be a casual outing or a glamorous soirée.</p>
+                        </div>
+                    }
+                />
             </section>
         </div>
 
