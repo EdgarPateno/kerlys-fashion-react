@@ -1,7 +1,10 @@
 import '../CSS/Footer.css';
 import { Link } from 'react-router-dom';
+import { useRef } from 'react';
 
 function Footer() {
+    const headerRef = useRef(null);
+
     return (
         <section className="site-footer">
             <div className="container-fluid">
@@ -11,10 +14,10 @@ function Footer() {
                             <div className="card-body">
                                 <h5 className="card-title">Customer Help</h5>
                                 <ul className="list-unstyled">
-                                    <li><Link to="/about">About Us</Link></li>
-                                    <li><Link to="/contact">Contact Us</Link></li>
-                                    <li><Link to="/faq">FAQs</Link></li>
-                                    <li><a href="#">Track Your Order</a></li>
+                                    <li><Link to="/about" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>About Us</Link></li>
+                                    <li><Link to="/contact" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>Contact Us</Link></li>
+                                    <li><Link to="/faq" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>FAQs</Link></li>
+                                    <li><Link to="/track-order" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>Track Your Order</Link></li>
                                 </ul>
                             </div>
                         </div>

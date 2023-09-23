@@ -1,8 +1,11 @@
 import React from 'react'
 import '../CSS/Bags.css'
 import { Link } from 'react-router-dom'
+import { useRef } from 'react'
 
 function Bags() {
+    const headerRef = useRef(null);
+
     return (
         <section className="all-bags-main-nav-banner">
             <div className="container-liquid">
@@ -17,7 +20,7 @@ function Bags() {
                 <div className="container">
                     <div className="bags-main-nav row row-cols-2 row-cols-md-4 g-4">
                         <div className="col">
-                            <Link to="/aeliana">
+                            <Link to="/aeliana" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/product-photos/aeliana/1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Aeliana Baby Blue Bag" />

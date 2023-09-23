@@ -4,9 +4,10 @@ import { Navbar, Nav, Form, Button, Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../CSS/Header.css';
 
-function Header() {
+function Header({ headerRef }) {
+
     return (
-        <header className="header">
+        <header className="header" ref={headerRef}>
             <div className="announcement-banner">
                 <Carousel>
                     <Carousel.Item interval={2000}>
