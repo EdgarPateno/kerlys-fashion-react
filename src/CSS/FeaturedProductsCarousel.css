@@ -34,3 +34,11 @@ section.featured-products-carousel {
 }
 
 /*----------------- MOBILE RESPONSIVENESS ----------------*/
+
+@media screen and (max-width: 430px) {
+
+    .featured-products-carousel .slick-prev,
+    .featured-products-carousel .slick-next {
+        display: none !important;
+    }
+}

@@ -21,6 +21,8 @@ import Dracarys from './Components/Dracarys';
 import Gwenore from './Components/Gwenore';
 import Sansa from './Components/Sansa';
 import Daenarys from './Components/Daenarys';
+import Catelyn from './Components/Catelyn';
+import Cersei from './Components/Cersei';
 
 function App() {
   return (
@@ -44,6 +46,8 @@ function App() {
         <Route path="/gwenore" element={<Gwenore />}></Route>
         <Route path="/sansa" element={<Sansa />}></Route>
         <Route path="/daenarys" element={<Daenarys />}></Route>
+        <Route path="/catelyn" element={<Catelyn />}></Route>
+        <Route path="/cersei" element={<Cersei />}></Route>
       </Routes>
       <Newsletter />
       <Footer />

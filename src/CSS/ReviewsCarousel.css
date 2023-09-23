@@ -37,4 +37,12 @@ section.reviews-carousel {
     border-radius: 50%;
 }
 
-/* --------------------------------------- MOBILE RESPONSIVENESS ----------------------- */
+/* ---------------------- MOBILE RESPONSIVENESS ----------------- */
+
+@media screen and (max-width: 430px) {
+
+    .reviews-carousel .slick-next,
+    .reviews-carousel .slick-prev {
+        display: none !important;
+    }
+}

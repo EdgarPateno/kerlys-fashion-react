@@ -222,7 +222,7 @@ function Bags() {
                         <div className="col">
                             <Link to="/catelyn" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
-                                    <img src="/images/chanel-bags-collection/chanel-19-large-handbag-yellow.webp" width="auto" height="auto"
+                                    <img src="/images/product-photos/catelyn/catelyn1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Catelyn Bag" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Catelyn</h3>
@@ -247,7 +247,7 @@ function Bags() {
                         <div className="col">
                             <Link to="/cersei" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
-                                    <img src="/images/chanel-bags-collection/chanel-black-2.webp" width="auto" height="auto"
+                                    <img src="/images/product-photos/cersei/cersei1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Cersei Bag" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Cersei</h3>
