@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-function ProductInfoCard({ productTitle, regularPrice, salePrice }) {
+function ProductInfoCard({ productTitle, regularPrice, salePrice, saveAmount }) {
 
     const [quantity, setQuantity] = useState(1);
 
@@ -21,8 +21,7 @@ function ProductInfoCard({ productTitle, regularPrice, salePrice }) {
                     <div className="h5 d-flex align-items-center" id="productPrice">
                         <span className="regular-price">{regularPrice}</span>
                         <span className="sale-price">{salePrice}</span>
-                        <span id="save-badge" className="badge badge-save50 bg-danger">Save
-                            $100</span>
+                        <span id="save-badge" className="badge badge-save50 bg-danger">{saveAmount}</span>
                     </div>
 
                     <div className="free-shipping-product-form my-3">

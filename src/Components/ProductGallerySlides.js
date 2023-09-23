@@ -28,28 +28,30 @@ const ProductGallerySlides = ({ images }) => {
 
     return (
         <div className="product-gallery container">
-            <div className="slides">
-                {images.map((image, index) => (
-                    <div
-                        key={index}
-                        className={`slide ${index + 1 === slideIndex ? 'active' : ''}`}
-                    >
-                        <img src={image} alt={`Product Image ${index + 1}`} />
-                    </div>
-                ))}
-            </div>
-            <a className="prev" onClick={() => plusSlides(-1)}>❮</a>
-            <a className="next" onClick={() => plusSlides(1)}>❯</a>
-            <div className="thumbnails">
-                {images.map((image, index) => (
-                    <div
-                        key={index}
-                        className={`thumbnail cursor ${index + 1 === slideIndex ? 'active' : ''}`}
-                        onClick={() => currentSlide(index + 1)}
-                    >
-                        <img src={image} alt={`Thumbnail ${index + 1}`} />
-                    </div>
-                ))}
+            <div className="col">
+                <div className="slides">
+                    {images.map((image, index) => (
+                        <div
+                            key={index}
+                            className={`slide ${index + 1 === slideIndex ? 'active' : ''}`}
+                        >
+                            <img src={image} alt={`Product Image ${index + 1}`} />
+                        </div>
+                    ))}
+                </div>
+                <a className="prev" onClick={() => plusSlides(-1)}>❮</a>
+                <a className="next" onClick={() => plusSlides(1)}>❯</a>
+                <div className="thumbnails">
+                    {images.map((image, index) => (
+                        <div
+                            key={index}
+                            className={`thumbnail cursor ${index + 1 === slideIndex ? 'active' : ''}`}
+                            onClick={() => currentSlide(index + 1)}
+                        >
+                            <img src={image} alt={`Thumbnail ${index + 1}`} />
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );
