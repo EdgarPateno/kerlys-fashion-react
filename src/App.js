@@ -20,6 +20,7 @@ import Cassia from './Components/Cassia';
 import Dracarys from './Components/Dracarys';
 import Gwenore from './Components/Gwenore';
 import Sansa from './Components/Sansa';
+import Daenarys from './Components/Daenarys';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path="/dracarys" element={<Dracarys />}></Route>
         <Route path="/gwenore" element={<Gwenore />}></Route>
         <Route path="/sansa" element={<Sansa />}></Route>
+        <Route path="/daenarys" element={<Daenarys />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
