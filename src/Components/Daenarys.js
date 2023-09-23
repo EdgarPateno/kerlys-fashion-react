@@ -10,11 +10,11 @@ const Daenarys = () => {
     const [activeTab, setActiveTab] = useState('description');
 
     const productImages = [
-        '/images/product-photos/daenarys/daenarys-1.webp',
-        '/images/product-photos/daenarys/daenarys-2.webp',
-        '/images/product-photos/daenarys/daenarys-3.webp',
-        '/images/product-photos/daenarys/daenarys-4.webp',
-        '/images/product-photos/daenarys/daenarys-5.webp',
+        '/images/product-photos/daenarys/daenarys1.webp',
+        '/images/product-photos/daenarys/daenarys2.webp',
+        '/images/product-photos/daenarys/daenarys3.webp',
+        '/images/product-photos/daenarys/daenarys4.webp',
+        '/images/product-photos/daenarys/daenarys5.webp',
     ];
 
     return (

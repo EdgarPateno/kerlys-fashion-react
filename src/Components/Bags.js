@@ -45,7 +45,7 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <Link to="/arya">
+                            <Link to="/arya" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/product-photos/arya/arya-1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Arya Bag" />
@@ -70,7 +70,7 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <Link to="/calliope">
+                            <Link to="/calliope" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/product-photos/calliope/calliope-1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Calliope Bag" />
@@ -95,7 +95,7 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <Link to="/cassia">
+                            <Link to="/cassia" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/product-photos/cassia/cassia-1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Cassia Bag" />
@@ -120,7 +120,7 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <Link to="/dracarys">
+                            <Link to="/dracarys" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/product-photos/dracarys/dracarys-1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Dracarys Bag" />
@@ -145,9 +145,9 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <Link to="/gwenore">
+                            <Link to="/gwenore" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
-                                    <img src="/images/product-photos/gwenore/gwenore-1.webp" width="auto" height="auto"
+                                    <img src="/images/product-photos/gwenore/gwenore-2.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Gwenore Bag" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Gwenore</h3>
@@ -170,9 +170,9 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <Link to="/sansa">
+                            <Link to="/sansa" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
-                                    <img src="/images/product-photos/sansa/sansa-1.webp" width="auto" height="auto"
+                                    <img src="/images/product-photos/sansa/sansa-2.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Sansa Bag" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Sansa</h3>
@@ -195,7 +195,7 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <Link to="/daenarys">
+                            <Link to="/daenarys" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/product-photos/daenarys/daenarys1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Daenarys Bag" />
@@ -220,7 +220,7 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <Link to="/catelyn">
+                            <Link to="/catelyn" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/chanel-bags-collection/chanel-19-large-handbag-yellow.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Catelyn Bag" />
@@ -245,7 +245,7 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <Link to="/cersei">
+                            <Link to="/cersei" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/chanel-bags-collection/chanel-black-2.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Cersei Bag" />
@@ -270,7 +270,7 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <Link to="/baelish">
+                            <Link to="/baelish" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/chanel-bags-collection/chanel-red-3.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Baelish Bag" />
@@ -295,7 +295,7 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <Link to="/lysa">
+                            <Link to="/lysa" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/chanel-bags-collection/chanel-yellow-1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Lysa Bag" />
@@ -320,7 +320,7 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <Link to="/arryn">
+                            <Link to="/arryn" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/chanel-bags-collection/mini-flap-bag-2.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Arryn Bag" />
@@ -345,7 +345,7 @@ function Bags() {
                         </div>
 
                         <div className="col">
-                            <a href="/sections/osha-product-page.html">
+                            <Link to="/osha" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/chanel-bags-collection/mini-flap-bag.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Osha Bag" />
@@ -366,7 +366,7 @@ function Bags() {
                                         </h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
