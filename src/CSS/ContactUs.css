@@ -3,7 +3,7 @@
 }
 
 /* Style inputs */
-input[type=text],
+.contact-us-page .contact-us-map-form input[type=text],
 select,
 textarea {
     width: 100%;
@@ -14,7 +14,7 @@ textarea {
     resize: vertical;
 }
 
-input[type=submit] {
+.contact-us-page .contact-us-map-form input[type=submit] {
     background-color: #329BD1;
     width: 200px;
     color: white;
@@ -23,18 +23,18 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+.contact-us-page .contact-us-map-form input[type=submit]:hover {
     background-color: #329BD1;
 }
 
 /* Style the container/contact section */
-.container {
+.contact-us-page .container {
     border-radius: 5px;
     padding: 10px;
 }
 
 /* Create two columns that float next to eachother */
-.column {
+.contact-us-page .column {
     float: left;
     width: 50%;
     margin-top: 6px;
@@ -42,7 +42,7 @@ input[type=submit]:hover {
 }
 
 /* Clear floats after the columns */
-.row:after {
+.contact-us-page .row:after {
     content: "";
     display: table;
     clear: both;
@@ -51,13 +51,13 @@ input[type=submit]:hover {
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 768px) {
 
-    .column,
+    .contact-us-page .column,
     input[type=submit] {
         width: 100%;
         margin-top: 0;
     }
 
-    div.alcoy-google-map {
+    .contact-us-page div.alcoy-google-map {
         width: 100%
     }
 }
