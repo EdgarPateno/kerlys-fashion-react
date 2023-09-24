@@ -44,3 +44,18 @@ div.womens-jewellery-text-overlay h2 {
 }
 
 /* END - Womens Bags Jewelry Image Banner CSS */
+
+
+/* ----------------------------- MOBILE RESPONSIVENESS -------------------------- */
+@media screen and (max-width: 430px) {
+
+    .womens-bags-jewellery-img-text-overlay .container {
+        padding: 0;
+    }
+
+    div.womens-bags-text-overlay h2,
+    div.womens-jewellery-text-overlay h2 {
+        font-size: 1rem;
+    }
+
+}
