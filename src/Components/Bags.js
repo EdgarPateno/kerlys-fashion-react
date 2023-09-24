@@ -297,7 +297,7 @@ function Bags() {
                         <div className="col">
                             <Link to="/lysa" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
-                                    <img src="/images/chanel-bags-collection/chanel-yellow-1.webp" width="auto" height="auto"
+                                    <img src="/images/product-photos/lysa/lysa1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Lysa Bag" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Lysa</h3>
@@ -322,7 +322,7 @@ function Bags() {
                         <div className="col">
                             <Link to="/arryn" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
-                                    <img src="/images/chanel-bags-collection/mini-flap-bag-2.webp" width="auto" height="auto"
+                                    <img src="/images/product-photos/arryn/arryn1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Arryn Bag" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Arryn</h3>
@@ -347,7 +347,7 @@ function Bags() {
                         <div className="col">
                             <Link to="/osha" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
-                                    <img src="/images/chanel-bags-collection/mini-flap-bag.webp" width="auto" height="auto"
+                                    <img src="/images/product-photos/osha/osha1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Osha Bag" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Osha</h3>
