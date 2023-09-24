@@ -3,10 +3,11 @@ import '../CSS/Cassia.css'
 import ProductTabs from './ProductTabs';
 import ProductAccordion from './ProductAccordion';
 import ProductGallerySlides from './ProductGallerySlides';
+import ProductInfoCard from './ProductInfoCard';
 
 const Cassia = () => {
 
-    const [quantity, setQuantity] = useState(1);
+    //const [quantity, setQuantity] = useState(1);
     const [activeTab, setActiveTab] = useState('description');
 
     const productImages = [
@@ -21,71 +22,9 @@ const Cassia = () => {
         <div className="mt-5">
             <section className="cassia-product-page container-sm">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
-                    <div className="col">
-                        <ProductGallerySlides images={productImages} />
-                    </div>
+                    <ProductGallerySlides images={productImages} />
 
-                    <div className="product-info-content col">
-                        <div className="card">
-                            <div className="card-body">
-                                <small>
-                                    <span className="fa fa-star checked"></span>
-                                    <span className="fa fa-star checked"></span>
-                                    <span className="fa fa-star checked"></span>
-                                    <span className="fa fa-star checked"></span>
-                                    <span className="fa fa-star checked"></span>
-                                    <span className='ms-2'>300 Trusted Reviews</span>
-                                </small>
-                                <h5 className="h1" id="productTitle">Cassia</h5>
-                                <div className="h5 d-flex align-items-center" id="productPrice">
-                                    <span className="regular-price">$700</span>
-                                    <span className="sale-price">$600</span>
-                                    <span id="save-badge" className="badge badge-save50 bg-danger">Save
-                                        $100</span>
-                                </div>
-
-
-                                <div className="free-shipping-product-form my-3">
-                                    <img src="/logos-icons/free-shipping-icon.png" /> <small>Free Express Shipping<br />
-                                        Order now, delivery in 3-5 business days.</small>
-                                </div>
-
-                                <div className="quantity">
-                                    <label htmlFor="quantity" className="mb-1">Quantity</label>
-                                </div>
-
-                                <div>
-                                    <input
-                                        className="form-control text-center"
-                                        style={{ width: '150px' }}
-                                        type="number"
-                                        name="quantity"
-                                        id="productQuantity"
-                                        min="1"
-                                        value={quantity}
-                                        onChange={(event) => setQuantity(event.target.value)}
-                                    />
-                                </div>
-
-                                <div className="add-to-cart-button my-4">
-                                    <button id="addToCartButton" className="btn btn-primary" style={{ width: '150px' }}>Add to Cart</button>
-
-                                </div>
-
-                                <div className="productpage-secure-checkout-content">
-                                    <h6 style={{ fontSize: '13px' }}>SAFE AND SECURE CHECKOUT WITH:</h6>
-                                    <div className="credit-card-logos d-flex gap-2">
-                                        <i className="fa fa-cc-visa"></i>
-                                        <i className="fa fa-cc-amex"></i>
-                                        <i className="fa fa-cc-mastercard"></i>
-                                        <i className="fa fa-cc-discover"></i>
-                                        <i className="fa fa-cc-paypal"></i>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+                    <ProductInfoCard productTitle="Cassia" regularPrice="$700" salePrice="$600" saveAmount="$100" />
                 </div>
             </section>
 
@@ -107,7 +46,18 @@ const Cassia = () => {
                             your impeccable taste.</p>
                     </div>
                 </div>
-                <ProductAccordion />
+                <ProductAccordion
+                    description={
+                        <div className="mt-4">
+                            <p>Introducing the exquisite Cassia Luxury Bag – a true embodiment of elegance and sophistication. Crafted
+                                with the utmost precision and attention to detail, this masterpiece redefines luxury in every sense.</p>
+
+                            <p>Enveloped in the gentle embrace of a soothing baby blue hue, the Aeliana Luxury Bag exudes an aura of
+                                timeless charm and refined beauty. The color evokes a sense of tranquility and grace, making it the
+                                perfect companion for any occasion, whether it be a casual outing or a glamorous soirée.</p>
+                        </div>
+                    }
+                />
             </section>
         </div>
 
