@@ -8,7 +8,7 @@ const Newsletter = () => {
                 <p className="text-center">Don't Miss Our Promotion. Sign up to get your 20% discount off your purchase.</p>
 
                 <form className="row row-cols-lg-auto g-3 justify-content-center align-items-center" action="" target="_blank" method="get">
-                    <div className="row container g-3">
+                    <div className="row container align-items-center g-3">
                         <div className="col-sm-4">
                             <input type="text" className="form-control" placeholder="Enter full name" aria-label="City" />
                         </div>

@@ -8,3 +8,18 @@ section.shop-by-brands {
 }
 
 /*---------------------- MOBILE RESONSIVENESS ----------------------*/
+@media screen and (max-width: 430px) {
+    .thumbnail img {
+        width: 60px;
+    }
+
+    img.shop-by-brands-image {
+        width: 120px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    img.shop-by-brands-image {
+        width: 100px !important;
+    }
+}

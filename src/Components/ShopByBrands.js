@@ -8,7 +8,7 @@ function ShopByBrands() {
                 <div className="row row-cols-2 row-cols-md-4 justify-content-center g-4">
                     <div className="col">
                         <div className="card h-100">
-                            <img src="./images/shop-by-brands/louis-vuitton-gold-logo.webp" style={{ width: '150px' }} id="shop-by-brands-image" className="card-img rounded-circle mx-auto" alt="Louis Vuitton logo" />
+                            <img src="./images/shop-by-brands/louis-vuitton-gold-logo.webp" style={{ width: '150px' }} className="shop-by-brands-image card-img rounded-circle mx-auto" alt="Louis Vuitton logo" />
                             <div className="card-body text-center">
                                 <h5 className="card-title">Louis Vuitton Collection</h5>
                                 <span className="fa fa-star checked"></span>
@@ -25,7 +25,7 @@ function ShopByBrands() {
 
                     <div className="col">
                         <div className="card h-100">
-                            <img src="./images/shop-by-brands/chanel-logo-64c7de2924d5b.webp" style={{ width: '150px' }} id="shop-by-brands-image" className="card-img rounded-circle mx-auto" alt="Chanel logo" />
+                            <img src="./images/shop-by-brands/chanel-logo-64c7de2924d5b.webp" style={{ width: '150px' }} className="shop-by-brands-image card-img rounded-circle mx-auto" alt="Chanel logo" />
                             <div className="card-body text-center">
                                 <h5 className="card-title">Chanel Collection</h5>
                                 <span className="fa fa-star checked"></span>
@@ -42,7 +42,7 @@ function ShopByBrands() {
 
                     <div className="col">
                         <div className="card h-100">
-                            <img src="./images/shop-by-brands/gucci-logo-64c7de2949aee.webp" style={{ width: '150px' }} id="shop-by-brands-image" className="card-img rounded-circle mx-auto" alt="Gucci logo" />
+                            <img src="./images/shop-by-brands/gucci-logo-64c7de2949aee.webp" style={{ width: '150px' }} className="shop-by-brands-image card-img rounded-circle mx-auto" alt="Gucci logo" />
                             <div className="card-body text-center">
                                 <h5 className="card-title">Gucci Collection</h5>
                                 <span className="fa fa-star checked"></span>
@@ -59,8 +59,7 @@ function ShopByBrands() {
 
                     <div className="col">
                         <div className="card h-100">
-                            <img src="./images/shop-by-brands/prada-64c7de2a03fa1.webp" style={{ width: '150px' }} id="shop-by-brands-image"
-                                className="card-img rounded-circle mx-auto" alt="Prada logo" />
+                            <img src="./images/shop-by-brands/prada-64c7de2a03fa1.webp" style={{ width: '150px' }} className="shop-by-brands-image card-img rounded-circle mx-auto" alt="Prada logo" />
                             <div className="card-body text-center">
                                 <h5 className="card-title">Prada Collection</h5>
                                 <span className="fa fa-star checked"></span>
