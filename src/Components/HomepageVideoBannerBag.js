@@ -1,6 +1,11 @@
 import '../CSS/HomepageVideoBannerBag.css';
+import { Link } from 'react-router-dom';
+import React, { useRef } from 'react';
 
 function HomepageVideoBannerBag() {
+
+    const headerRef = useRef(null);
+
     return (
         <section className="homepage-video-banner-bag">
             <div className="container-liquid">
@@ -12,7 +17,7 @@ function HomepageVideoBannerBag() {
                         <span className="unleash-style"> Unleash Your Style</span><br />
                         <span className="confidence">Carry Your Confidence</span>
                     </h3>
-                    <a href="lv-bags-collection.html" className="btn btn-primary">SHOP BAGS</a>
+                    <Link to="lv-bags" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })} className="btn btn-primary">SHOP BAGS</Link>
                 </div>
             </div>
         </section>

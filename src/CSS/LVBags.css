@@ -1,0 +1,21 @@
+.lv-bags-main-nav-banner video {
+    position: relative;
+}
+
+.lv-bags-collection-video-banner-title {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lv-bags-collection-video-banner-title h2 {
+    color: #329BD1;
+}
+
+
+@media screen and (max-width: 430px) {
+    .lv-bags-collection-video-banner-title {
+        top: 25%;
+    }
+}

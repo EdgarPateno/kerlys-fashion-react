@@ -27,6 +27,7 @@ import Baelish from './Components/Baelish';
 import Lysa from './Components/Lysa';
 import Arryn from './Components/Arryn';
 import Osha from './Components/Osha';
+import LVBags from './Components/LVBags';
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
         <Route path="/lysa" element={<Lysa />}></Route>
         <Route path="/arryn" element={<Arryn />}></Route>
         <Route path="/osha" element={<Osha />}></Route>
+        <Route path="/lv-bags" element={<LVBags />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
