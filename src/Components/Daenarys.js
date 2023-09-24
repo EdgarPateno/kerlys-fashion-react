@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../CSS/Aeliana.css'
+import '../CSS/Daenarys.css'
 import ProductTabs from './ProductTabs';
 import ProductAccordion from './ProductAccordion';
 import ProductGallerySlides from './ProductGallerySlides';
@@ -20,7 +20,7 @@ const Daenarys = () => {
 
     return (
         <div className="mt-5">
-            <section className="aeliana-product-page container-sm">
+            <section className="daenarys-product-page container-sm">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
                     <ProductGallerySlides images={productImages} />
 
