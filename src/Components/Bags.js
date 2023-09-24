@@ -272,7 +272,7 @@ function Bags() {
                         <div className="col">
                             <Link to="/baelish" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
-                                    <img src="/images/chanel-bags-collection/chanel-red-3.webp" width="auto" height="auto"
+                                    <img src="/images/product-photos/baelish/baelish1.webp" width="auto" height="auto"
                                         className="card-img-top" alt="Baelish Bag" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Baelish</h3>

@@ -23,6 +23,7 @@ import Sansa from './Components/Sansa';
 import Daenarys from './Components/Daenarys';
 import Catelyn from './Components/Catelyn';
 import Cersei from './Components/Cersei';
+import Baelish from './Components/Baelish';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
         <Route path="/daenarys" element={<Daenarys />}></Route>
         <Route path="/catelyn" element={<Catelyn />}></Route>
         <Route path="/cersei" element={<Cersei />}></Route>
+        <Route path="/baelish" element={<Baelish />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
