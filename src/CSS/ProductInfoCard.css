@@ -1,0 +1,13 @@
+.product-info-content {
+    padding: 0 0 0 4rem;
+}
+
+.free-shipping-below-shipping-icon {
+    border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 430px) {
+    .product-info-content {
+        padding: 0;
+    }
+}

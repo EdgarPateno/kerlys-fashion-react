@@ -95,4 +95,10 @@
     .thumbnail img {
         width: 60px;
     }
+
+    /* 
+    .product-gallery .next,
+    .product-gallery .prev {
+        display: none !important;
+    } */
 }

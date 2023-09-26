@@ -20,7 +20,7 @@ const Arya = () => {
     return (
         <div className="mt-5">
             <section className="arya-product-page container-sm">
-                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2">
                     <ProductGallerySlides images={productImages} />
 
                     <ProductInfoCard productTitle="Arya" regularPrice="$800" salePrice="$700" saveAmount="$100" />

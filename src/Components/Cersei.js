@@ -20,10 +20,8 @@ const Cersei = () => {
     return (
         <div className="mt-5">
             <section className="cersei-product-page container-sm">
-                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
-                    <div className="col">
-                        <ProductGallerySlides images={productImages} />
-                    </div>
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2">
+                    <ProductGallerySlides images={productImages} />
 
                     <ProductInfoCard productTitle="Cersei" regularPrice="$800" salePrice="$600" />
                 </div>

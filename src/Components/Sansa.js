@@ -21,7 +21,7 @@ const Sansa = () => {
     return (
         <div className="mt-5">
             <section className="sansa-product-page container-sm">
-                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2">
                     <ProductGallerySlides images={productImages} />
 
                     <ProductInfoCard productTitle="Sansa" regularPrice="$700" salePrice="$600" saveAmount="$100" />

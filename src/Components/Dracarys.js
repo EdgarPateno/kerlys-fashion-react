@@ -21,7 +21,7 @@ const Dracarys = () => {
     return (
         <div className="mt-5">
             <section className="dracarys-product-page container-sm">
-                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2">
                     <ProductGallerySlides images={productImages} />
 
                     <ProductInfoCard productTitle="Dracarys" regularPrice="$1000" salePrice="$800" saveAmount="$200" />

@@ -1,5 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
+import BelowATCBadges from './BelowATCBadges';
+import '../CSS/ProductInfoCard.css'
 
 function ProductInfoCard({ productTitle, regularPrice, salePrice, saveAmount }) {
 
@@ -25,8 +27,8 @@ function ProductInfoCard({ productTitle, regularPrice, salePrice, saveAmount }) 
                     </div>
 
                     <div className="free-shipping-product-form my-3">
-                        <img src="/logos-icons/free-shipping-icon.png" /> <small>Free Express Shipping<br />
-                            Order now, delivery in 3-5 business days.</small>
+                        <img className="me-2" src="/logos-icons/free-shipping-icon.png" />
+                        <small className="free-shipping-below-shipping-icon text-muted">Free  Shipping. Order now, delivery in 3-5 business days.</small>
                     </div>
 
                     <div className="quantity">
@@ -35,7 +37,7 @@ function ProductInfoCard({ productTitle, regularPrice, salePrice, saveAmount }) 
                     <div>
                         <input
                             className="form-control text-center"
-                            style={{ width: '150px' }}
+                            style={{ width: '50%' }}
                             type="number"
                             name="quantity"
                             id="productQuantity"
@@ -46,13 +48,13 @@ function ProductInfoCard({ productTitle, regularPrice, salePrice, saveAmount }) 
                     </div>
 
                     <div className="add-to-cart-button my-4">
-                        <button id="addToCartButton" className="btn btn-primary" style={{ width: '150px' }}>Add to Cart</button>
+                        <button id="addToCartButton" className="btn btn-primary" style={{ width: '100%' }}>Add to Cart</button>
 
                     </div>
 
                     <div className="productpage-secure-checkout-content">
-                        <h6 style={{ fontSize: '13px' }}>SAFE AND SECURE CHECKOUT WITH:</h6>
-                        <div className="credit-card-logos d-flex gap-2">
+                        <h6 className="text-center" style={{ fontSize: '13px' }}>SAFE AND SECURE CHECKOUT WITH:</h6>
+                        <div className="credit-card-logos d-flex justify-content-center gap-2">
                             <i className="fa fa-cc-visa"></i>
                             <i className="fa fa-cc-amex"></i>
                             <i className="fa fa-cc-mastercard"></i>
@@ -60,6 +62,8 @@ function ProductInfoCard({ productTitle, regularPrice, salePrice, saveAmount }) 
                             <i className="fa fa-cc-paypal"></i>
                         </div>
                     </div>
+
+                    <BelowATCBadges />
                 </div>
             </div>
         </div>
