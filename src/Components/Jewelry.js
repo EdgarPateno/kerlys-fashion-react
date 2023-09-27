@@ -41,7 +41,7 @@ function Jewelry() {
                         <div className="col">
                             <Link to="/ygritte">
                                 <div className="card">
-                                    <img src="/images/jewelry-collection/tiffany-bracelet-3.webp" className="card-img-top" alt="bracelet" />
+                                    <img src="/images/product-photos/ygritte/ygritte1.webp" className="card-img-top" alt="bracelet" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Ygritte</h3>
                                         <p className="card-text text-center">

@@ -20,14 +20,14 @@ const Aeliana = () => {
 
     return (
         <div className="mt-5">
-            <section className="aeliana-product-page container-sm">
+            <section className="aeliana-product-page container">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2">
                     <ProductGallerySlides images={productImages} />
 
                     <ProductInfoCard productTitle="Aeliana" regularPrice="$1000" salePrice="$800" saveAmount="$200" />
                 </div>
             </section>
-            <section className="container mt-5">
+            <section className="product-description-and-policies container mt-sm-3 mt-md-5">
                 <ProductTabs activeTab={activeTab} setActiveTab={setActiveTab} />
                 <div className="tab-content">
                     <div id="description" className={`tab-pane ${activeTab === 'description' ? 'active' : ''}`}>

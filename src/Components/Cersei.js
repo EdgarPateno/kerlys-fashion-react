@@ -26,7 +26,7 @@ const Cersei = () => {
                     <ProductInfoCard productTitle="Cersei" regularPrice="$800" salePrice="$600" />
                 </div>
             </section>
-            <section className="container mt-5">
+            <section className="container mt-sm-3 mt-md-5">
                 <ProductTabs activeTab={activeTab} setActiveTab={setActiveTab} />
                 <div className="tab-content">
                     <div id="description" className={`tab-pane ${activeTab === 'description' ? 'active' : ''}`}>

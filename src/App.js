@@ -29,6 +29,7 @@ import Arryn from './Components/Arryn';
 import Osha from './Components/Osha';
 import LVBags from './Components/LVBags';
 import Yara from './Components/Yara';
+import Ygritte from './Components/Ygritte';
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
         <Route path="/osha" element={<Osha />}></Route>
         <Route path="/lv-bags" element={<LVBags />}></Route>
         <Route path="/yara" element={<Yara />}></Route>
+        <Route path="/ygritte" element={<Ygritte />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
