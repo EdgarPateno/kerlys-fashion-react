@@ -24,7 +24,7 @@ const Yara = () => {
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2">
                     <ProductGallerySlides images={productImages} />
 
-                    <ProductInfoCard productTitle="Aeliana" regularPrice="$1000" salePrice="$800" saveAmount="$200" />
+                    <ProductInfoCard productTitle="Yara" regularPrice="$1000" salePrice="$800" saveAmount="$200" />
                 </div>
             </section>
             <section className="container mt-sm-3 mt-md-5">

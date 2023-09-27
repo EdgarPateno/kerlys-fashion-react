@@ -1,8 +1,12 @@
 import React from 'react'
 import '../CSS/Jewelry.css'
 import { Link } from 'react-router-dom'
+import { useRef } from 'react';
 
 function Jewelry() {
+
+    const headerRef = useRef(null);
+
     return (
         <section className="jewelry-collection-video-banner">
             <div className="container-liquid">
@@ -18,7 +22,7 @@ function Jewelry() {
                 <div className="container">
                     <div className="row row-cols-2 row-cols-md-4 g-4">
                         <div className="col">
-                            <Link to="/yara">
+                            <Link to="/yara" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/product-photos/yara/yara1.webp" className="card-img-top" alt="Yara Necklace" />
                                     <div className="card-body">
@@ -39,7 +43,7 @@ function Jewelry() {
                         </div>
 
                         <div className="col">
-                            <Link to="/ygritte">
+                            <Link to="/ygritte" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/product-photos/ygritte/ygritte1.webp" className="card-img-top" alt="bracelet" />
                                     <div className="card-body">
@@ -60,7 +64,7 @@ function Jewelry() {
                         </div>
 
                         <div className="col">
-                            <Link to="/margaery">
+                            <Link to="/margaery" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/jewelry-collection/tiffany-earrings-2.webp" className="card-img-top" alt="earrings" />
                                     <div className="card-body">
@@ -81,7 +85,7 @@ function Jewelry() {
                         </div>
 
                         <div className="col">
-                            <Link to="/brienne">
+                            <Link to="/brienne" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/jewelry-collection/tiffany-hoops-5.webp" className="card-img-top" alt="hoops" />
                                     <div className="card-body">
@@ -102,7 +106,7 @@ function Jewelry() {
                         </div>
 
                         <div className="col">
-                            <Link to="/shae">
+                            <Link to="/shae" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/jewelry-collection/tiffany-necklace-6.webp" className="card-img-top" alt="necklace" />
                                     <div className="card-body">
@@ -123,7 +127,7 @@ function Jewelry() {
                         </div>
 
                         <div className="col">
-                            <Link to="/ros">
+                            <Link to="/ros" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
                                     <img src="/images/jewelry-collection/tiffany-ring-4.webp" className="card-img-top" alt="..." />
                                     <div className="card-body">
