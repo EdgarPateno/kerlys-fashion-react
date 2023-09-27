@@ -1,6 +1,11 @@
 import '../CSS/ShopByBrands.css';
+import { Link } from 'react-router-dom';
+import React, { useRef } from 'react';
 
 function ShopByBrands() {
+
+    const headerRef = useRef(null);
+
     return (
         <section className='shop-by-brands'>
             <div className="container-sm">
@@ -17,8 +22,7 @@ function ShopByBrands() {
                                 <span className="fa fa-star checked"></span>
                                 <span className="fa fa-star checked"></span>
                                 <p>6100 Trusted Reviews</p>
-                                <a className="btn btn-primary form-control collection-list" href="lv-bags-collection.html"
-                                    role="button">EXPLORE</a>
+                                <Link to="lv-bags" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })} className="btn btn-primary form-control collection-list" role="button">EXPLORE</Link>
                             </div>
                         </div>
                     </div>
