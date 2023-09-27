@@ -32,7 +32,7 @@ const FeaturedProductsCarousel = () => {
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
                             <img src="./images/featured-products-carousel/1.webp" className="card-img-top" alt="Featured Product 1" />
-                            <div className="featured-product-text-content text-center">
+                            <div className="featured-product-text-content text-center mt-3">
                                 <h3>Daenarys</h3>
                                 <p>
                                     <span className='featured-product regular-price'>$700 </span>
@@ -44,7 +44,7 @@ const FeaturedProductsCarousel = () => {
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
                             <img src="./images/featured-products-carousel/2.webp" className="card-img-top" alt="Featured Product 2" />
-                            <div className="featured-product-text-content text-center">
+                            <div className="featured-product-text-content text-center mt-3">
                                 <h3>Greyjoy</h3>
                                 <p>
                                     <span className='featured-product regular-price'>$800 </span>
@@ -56,7 +56,7 @@ const FeaturedProductsCarousel = () => {
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
                             <img src="./images/featured-products-carousel/3.webp" className="card-img-top" alt="Featured Product 3" />
-                            <div className="featured-product-text-content text-center">
+                            <div className="featured-product-text-content text-center mt-3">
                                 <h3>Aeliana</h3>
                                 <p>
                                     <span className='featured-product regular-price'>$900 </span>
@@ -68,7 +68,7 @@ const FeaturedProductsCarousel = () => {
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
                             <img src="./images/featured-products-carousel/4.webp" className="card-img-top" alt="Featured Product 4" />
-                            <div className="featured-product-text-content text-center">
+                            <div className="featured-product-text-content text-center mt-3">
                                 <h3>Tyene</h3>
                                 <p>
                                     <span className='featured-product regular-price'>$700 </span>
@@ -80,7 +80,7 @@ const FeaturedProductsCarousel = () => {
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
                             <img src="./images/featured-products-carousel/5.webp" className="card-img-top" alt="Featured Product 5" />
-                            <div className="featured-product-text-content text-center">
+                            <div className="featured-product-text-content text-center mt-3">
                                 <h3>Gilly</h3>
                                 <p>
                                     <span className='featured-product regular-price'>$900 </span>
@@ -92,7 +92,7 @@ const FeaturedProductsCarousel = () => {
                     <div className='featured-product-content-wrapper'>
                         <div className="card">
                             <img src="./images/featured-products-carousel/6.webp" className="card-img-top" alt="Featured Product 6" />
-                            <div className="featured-product-text-content text-center">
+                            <div className="featured-product-text-content text-center mt-3">
                                 <h3>Idylle </h3>
                                 <p>
                                     <span className='featured-product regular-price'>$900 </span>
