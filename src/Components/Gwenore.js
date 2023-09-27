@@ -32,7 +32,7 @@ const Gwenore = () => {
                 <ProductTabs activeTab={activeTab} setActiveTab={setActiveTab} />
                 <div className="tab-content">
                     <div id="description" className={`tab-pane ${activeTab === 'description' ? 'active' : ''}`}>
-                        <p className="mt-4">
+                        <p>
                             Introducing the exquisite Gwenore Luxury Bag – a true embodiment of elegance and sophistication. Crafted
                             with the utmost precision and attention to detail, this masterpiece redefines luxury in every sense.</p>
 
@@ -48,7 +48,7 @@ const Gwenore = () => {
                 </div>
                 <ProductAccordion
                     description={
-                        <div className="mt-4">
+                        <div>
                             <p>
                                 Introducing the exquisite Gwenore Luxury Bag – a true embodiment of elegance and sophistication. Crafted
                                 with the utmost precision and attention to detail, this masterpiece redefines luxury in every sense.</p>

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../CSS/Jewelry.css'
+import { Link } from 'react-router-dom'
 
 function Jewelry() {
     return (
@@ -17,9 +18,9 @@ function Jewelry() {
                 <div className="container">
                     <div className="row row-cols-2 row-cols-md-4 g-4">
                         <div className="col">
-                            <a href="/sections/yara-product-page.html">
+                            <Link to="/yara">
                                 <div className="card">
-                                    <img src="/images/jewelry-collection/tiffany-1.webp" className="card-img-top" alt="Yara Necklace" />
+                                    <img src="/images/product-photos/yara/yara1.webp" className="card-img-top" alt="Yara Necklace" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Yara</h3>
                                         <p className="card-text text-center">
@@ -34,11 +35,11 @@ function Jewelry() {
                                         <h5 className="regular-price text-center">$600</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/ygritte-product-page.html">
+                            <Link to="/ygritte">
                                 <div className="card">
                                     <img src="/images/jewelry-collection/tiffany-bracelet-3.webp" className="card-img-top" alt="bracelet" />
                                     <div className="card-body">
@@ -55,11 +56,11 @@ function Jewelry() {
                                         <h5 className="regular-price text-center">$650</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/margaery-product-page.html">
+                            <Link to="/margaery">
                                 <div className="card">
                                     <img src="/images/jewelry-collection/tiffany-earrings-2.webp" className="card-img-top" alt="earrings" />
                                     <div className="card-body">
@@ -76,11 +77,11 @@ function Jewelry() {
                                         <h5 className="regular-price text-center">$700</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/brienne-product-page.html">
+                            <Link to="/brienne">
                                 <div className="card">
                                     <img src="/images/jewelry-collection/tiffany-hoops-5.webp" className="card-img-top" alt="hoops" />
                                     <div className="card-body">
@@ -97,11 +98,11 @@ function Jewelry() {
                                         <h5 className="regular-price text-center">$800</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/shae-product-page.html">
+                            <Link to="/shae">
                                 <div className="card">
                                     <img src="/images/jewelry-collection/tiffany-necklace-6.webp" className="card-img-top" alt="necklace" />
                                     <div className="card-body">
@@ -118,11 +119,11 @@ function Jewelry() {
                                         <h5 className="regular-price text-center">$800</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/ros-product-page.html">
+                            <Link to="/ros">
                                 <div className="card">
                                     <img src="/images/jewelry-collection/tiffany-ring-4.webp" className="card-img-top" alt="..." />
                                     <div className="card-body">
@@ -139,7 +140,7 @@ function Jewelry() {
                                         <h5 className="regular-price text-center">$600</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

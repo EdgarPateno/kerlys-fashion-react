@@ -28,6 +28,7 @@ import Lysa from './Components/Lysa';
 import Arryn from './Components/Arryn';
 import Osha from './Components/Osha';
 import LVBags from './Components/LVBags';
+import Yara from './Components/Yara';
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
         <Route path="/arryn" element={<Arryn />}></Route>
         <Route path="/osha" element={<Osha />}></Route>
         <Route path="/lv-bags" element={<LVBags />}></Route>
+        <Route path="/yara" element={<Yara />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
