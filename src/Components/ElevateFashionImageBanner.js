@@ -1,6 +1,11 @@
 import '../CSS/ElevateFashionImageBanner.css';
+import { Link } from 'react-router-dom';
+import React, { useRef } from 'react';
 
 function ElevateFashionImageBanner() {
+
+  const headerRef = useRef(null);
+
   return (
     <section className="elevate-fashion-image-banner">
       <div className="elevate-fashion-image-banner-container">
@@ -9,7 +14,7 @@ function ElevateFashionImageBanner() {
             <span className="elevate-fashion">Elevate Your Fashion.</span> <br />
             <span className="embrace-luxury">Embrace Luxury.</span>
           </h3>
-          <a href="lv-bags-collection.html" className="btn btn-primary">SHOP NOW</a>
+          <Link to="lv-bags" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })} className="btn btn-primary">SHOP NOW</Link>
         </div>
         <img src="./images/image-banners/elevate-fashion-image-banner-woman-on-pool.webp" width="auto"
           height="auto" alt="Woman on a pool with Louis Vuitton bag" />

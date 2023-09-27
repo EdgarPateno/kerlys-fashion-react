@@ -17,7 +17,7 @@ function HomepageVideoBannerBag() {
                         <span className="unleash-style"> Unleash Your Style</span><br />
                         <span className="confidence">Carry Your Confidence</span>
                     </h3>
-                    <Link to="lv-bags" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })} className="btn btn-primary">SHOP BAGS</Link>
+                    <Link to="bags" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })} className="btn btn-primary">SHOP BAGS</Link>
                 </div>
             </div>
         </section>
