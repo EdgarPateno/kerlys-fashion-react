@@ -9,6 +9,10 @@ section.newsletter {
     padding: 0 10px;
 }
 
+.success-message {
+    color: green;
+}
+
 /*--------------------------MOBILE RESPONSIVENESS END--------------------------*/
 @media screen and (max-width: 430px) {
     section.newsletter {

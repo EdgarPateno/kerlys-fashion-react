@@ -2,12 +2,13 @@ import '../CSS/Newsletter.css';
 import React, { useState } from 'react';
 
 const Newsletter = () => {
-    // State to store form data
+    // State to store form data and success message
     const [formData, setFormData] = useState({
         first_name: '',
         last_name: '',
         email_address: '',
     });
+    const [successMessage, setSuccessMessage] = useState('');
 
     // Function to handle form input changes
     const handleInputChange = (e) => {
@@ -34,7 +35,8 @@ const Newsletter = () => {
 
             if (response.ok) {
                 // Subscription was successful
-                alert('Subscription successful!');
+                setSuccessMessage('Thank you so much for subscribing!');
+
                 // Clear the form after successful submission
                 setFormData({
                     first_name: '',
@@ -100,6 +102,8 @@ const Newsletter = () => {
                         </div>
                     </div>
                 </form>
+
+                {successMessage && <p className="success-message text-center mt-4">{successMessage}</p>}
             </div>
         </section>
     );
