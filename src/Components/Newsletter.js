@@ -6,7 +6,7 @@ const Newsletter = () => {
     const [formData, setFormData] = useState({
         first_name: '',
         last_name: '',
-        email: '',
+        email_address: '',
     });
 
     // Function to handle form input changes
@@ -39,7 +39,7 @@ const Newsletter = () => {
                 setFormData({
                     first_name: '',
                     last_name: '',
-                    email: '',
+                    email_address: '',
                 });
             } else {
                 // Handle errors here
