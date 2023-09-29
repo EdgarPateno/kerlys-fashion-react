@@ -69,6 +69,7 @@ const Newsletter = () => {
                                 placeholder="Enter first name"
                                 aria-label="Name"
                                 name="first_name"
+                                required
                                 value={formData.first_name}
                                 onChange={handleInputChange}
                             />
@@ -80,6 +81,7 @@ const Newsletter = () => {
                                 placeholder="Enter last name"
                                 aria-label="Last Name"
                                 name="last_name"
+                                required
                                 value={formData.last_name}
                                 onChange={handleInputChange}
                             />
@@ -91,6 +93,7 @@ const Newsletter = () => {
                                 placeholder="Enter email address"
                                 aria-label="Email"
                                 name="email_address"
+                                required
                                 value={formData.email_address}
                                 onChange={handleInputChange}
                             />
