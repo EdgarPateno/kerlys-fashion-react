@@ -31,6 +31,7 @@ import LVBags from './Components/LVBags';
 import Yara from './Components/Yara';
 import Ygritte from './Components/Ygritte';
 import Margaery from './Components/Margaery';
+import Brienne from './Components/Brienne';
 
 function App() {
   return (
@@ -64,6 +65,7 @@ function App() {
         <Route path="/yara" element={<Yara />}></Route>
         <Route path="/ygritte" element={<Ygritte />}></Route>
         <Route path="/margaery" element={<Margaery />}></Route>
+        <Route path="/brienne" element={<Brienne />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
