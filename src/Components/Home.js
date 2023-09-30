@@ -1,5 +1,4 @@
 
-import React from 'react';
 import HomepageVideoBannerBag from './HomepageVideoBannerBag';
 import FeaturedProductsCarousel from './FeaturedProductsCarousel';
 import ShopByBrands from './ShopByBrands';

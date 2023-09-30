@@ -1,4 +1,3 @@
-import React from 'react';
 import { useState } from 'react';
 import BelowATCBadges from './BelowATCBadges';
 import '../CSS/ProductInfoCard.css'
@@ -27,7 +26,7 @@ function ProductInfoCard({ productTitle, regularPrice, salePrice, saveAmount }) 
                     </div>
 
                     <div className="free-shipping-product-form my-3">
-                        <img className="me-2" src="/logos-icons/free-shipping-icon.png" />
+                        <img className="me-2" src="/logos-icons/free-shipping-icon.png" alt="free shipping icon" />
                         <small className="free-shipping-below-shipping-icon text-muted">Free  Shipping. Order now, delivery in 3-5 business days.</small>
                     </div>
 

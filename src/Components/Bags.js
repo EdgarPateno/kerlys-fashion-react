@@ -1,4 +1,3 @@
-import React from 'react'
 import '../CSS/Bags.css'
 import { Link } from 'react-router-dom'
 import { useRef } from 'react'

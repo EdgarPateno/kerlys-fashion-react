@@ -1,4 +1,3 @@
-import React from 'react'
 import '../CSS/OurBrands.css'
 
 function OurBrands() {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, Form, Button, Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';

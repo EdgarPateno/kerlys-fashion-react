@@ -1,6 +1,4 @@
 
-import React from 'react';
-
 const ProductTabs = ({ activeTab, setActiveTab }) => {
     return (
         <div id="product-tabs">
