@@ -1,6 +1,11 @@
 import '../CSS/Shoes.css'
+import { Link } from 'react-router-dom';
+import { useRef } from 'react';
 
 function Shoes() {
+
+    const headerRef = useRef();
+
     return (
         <section className="shoes-collection-image-banner">
             <div className="container-liquid">
@@ -15,9 +20,9 @@ function Shoes() {
                 <div className="container">
                     <div className="row row-cols-2 row-cols-md-4 g-4">
                         <div className="col">
-                            <a href="/sections/melisandre-product-page.html">
+                            <Link to="/melisandre" onClick={(() => headerRef.current.scrollIntoView({ behavior: 'smooth' }))}>
                                 <div className="card">
-                                    <img src="/images/shoes-collection/shoes-1.webp" className="card-img-top" alt="shoes" />
+                                    <img src="/images/product-photos/melisandre/melisandre1.png" className="card-img-top" alt="shoes" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Melisandre</h3>
                                         <p className="card-text text-center">
@@ -29,16 +34,19 @@ function Shoes() {
                                             <br />
                                             <span>600 Trusted Reviews</span>
                                         </p>
-                                        <h5 className="regular-price text-center">$600</h5>
+                                        <h5 className="card-text text-center align-items-center">
+                                            <span className="regular-price">$900</span>
+                                            <span className="sale-price">$700</span>
+                                        </h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/greyjoy-product-page.html">
+                            <Link to="/greyjoy" onClick={(() => headerRef.current.scrollIntoView({ behavior: 'smooth' }))}>
                                 <div className="card">
-                                    <img src="/images/shoes-collection/shoes-2.webp" className="card-img-top" alt="shoes" />
+                                    <img src="/images/product-photos/greyjoy/greyjoy1.webp" className="card-img-top" alt="shoes" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Greyjoy</h3>
                                         <p className="card-text text-center">
@@ -53,11 +61,11 @@ function Shoes() {
                                         <h5 className="regular-price text-center">$650</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/missandei-product-page.html">
+                            <Link to="/missandei" onClick={(() => headerRef.current.scrollIntoView({ behavior: 'smooth' }))}>
                                 <div className="card">
                                     <img src="/images/shoes-collection/shoes-3.webp" className="card-img-top" alt="shoes" />
                                     <div className="card-body">
@@ -74,11 +82,11 @@ function Shoes() {
                                         <h5 className="regular-price text-center">$700</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/olenna-product-page.html">
+                            <Link to="/olenna" onClick={(() => headerRef.current.scrollIntoView({ behavior: 'smooth' }))}>
                                 <div className="card">
                                     <img src="/images/shoes-collection/shoes-4.webp" className="card-img-top" alt="shoes" />
                                     <div className="card-body">
@@ -95,11 +103,11 @@ function Shoes() {
                                         <h5 className="regular-price text-center">$800</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/myrcella-product-page.html">
+                            <Link to="/myrcella" onClick={(() => headerRef.current.scrollIntoView({ behavior: 'smooth' }))}>
                                 <div className="card">
                                     <img src="/images/shoes-collection/shoes-5.webp" className="card-img-top" alt="shoes" />
                                     <div className="card-body">
@@ -116,11 +124,11 @@ function Shoes() {
                                         <h5 className="regular-price text-center">$800</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="col">
-                            <a href="/sections/tyene-product-page.html">
+                            <Link to="/Tyene" onClick={(() => headerRef.current.scrollIntoView({ behavior: 'smooth' }))}>
                                 <div className="card">
                                     <img src="/images/shoes-collection/shoes-6.webp" className="card-img-top" alt="shoes" />
                                     <div className="card-body">
@@ -137,7 +145,7 @@ function Shoes() {
                                         <h5 className="regular-price text-center">$600</h5>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
