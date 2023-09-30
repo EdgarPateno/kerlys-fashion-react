@@ -129,7 +129,7 @@ function Jewelry() {
                         <div className="col">
                             <Link to="/ros" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })}>
                                 <div className="card">
-                                    <img src="/images/jewelry-collection/tiffany-ring-4.webp" className="card-img-top" alt="..." />
+                                    <img src="/images/product-photos/ros/ros1.webp" className="card-img-top" alt="Jewelry" />
                                     <div className="card-body">
                                         <h3 className="card-title text-center">Ros</h3>
                                         <p className="card-text text-center">
