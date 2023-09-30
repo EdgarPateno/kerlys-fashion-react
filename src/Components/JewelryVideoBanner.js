@@ -1,6 +1,11 @@
 import '../CSS/JewelryVideoBanner.css';
+import { Link } from 'react-router-dom';
+import React, { useRef } from 'react';
 
 function JewelryVideoBanner() {
+
+    const headerRef = useRef(null);
+
     return (
         <section className="jewelry-video-banner-homepage">
             <div className="container-liquid">
@@ -12,7 +17,7 @@ function JewelryVideoBanner() {
                         <span className="unveil-radiance">Unveil Your Radiance</span>< br />
                         <span className="jewelry-obsession">#JewelryObsession</span>
                     </h3>
-                    <a href="jewelry-collection.html" className="btn btn-primary">SHOP JEWELRY</a>
+                    <Link to="/jewelry" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })} className="btn btn-primary">SHOP JEWELRY</Link>
                 </div>
             </div>
         </section>
