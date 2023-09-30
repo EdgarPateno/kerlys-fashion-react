@@ -2,9 +2,14 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../CSS/FeaturedProductsCarousel.css';
+import { Link } from 'react-router-dom';
+import React, { useRef } from 'react';
 
 
 const FeaturedProductsCarousel = () => {
+
+    const headerRef = useRef(null);
+
     const settings = {
         dots: true,
         infinite: true,
@@ -38,6 +43,9 @@ const FeaturedProductsCarousel = () => {
                                     <span className='featured-product sale-price'>$600</span>
                                 </p>
                             </div>
+                            <div>
+                            <Link to="/daenarys" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })} className="btn btn-primary form-control" role="button">SHOP NOW</Link>
+                            </div>
                         </div>
                     </div>
                     <div className='featured-product-content-wrapper'>
@@ -49,6 +57,9 @@ const FeaturedProductsCarousel = () => {
                                     <span className='featured-product regular-price'>$800 </span>
                                     <span className='featured-product sale-price'>$700</span>
                                 </p>
+                            </div>
+                            <div>
+                            <Link to="/greyjoy" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })} className="btn btn-primary form-control" role="button">SHOP NOW</Link>
                             </div>
                         </div>
                     </div>
@@ -62,6 +73,9 @@ const FeaturedProductsCarousel = () => {
                                     <span className='featured-product sale-price'>$800</span>
                                 </p>
                             </div>
+                            <div>
+                            <Link to="/aeliana" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })} className="btn btn-primary form-control" role="button">SHOP NOW</Link>
+                            </div>
                         </div>
                     </div>
                     <div className='featured-product-content-wrapper'>
@@ -73,6 +87,9 @@ const FeaturedProductsCarousel = () => {
                                     <span className='featured-product regular-price'>$700 </span>
                                     <span className='featured-product sale-price'>$600</span>
                                 </p>
+                            </div>
+                            <div>
+                            <Link to="/tyene" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })} className="btn btn-primary form-control" role="button">SHOP NOW</Link>
                             </div>
                         </div>
                     </div>
@@ -86,6 +103,9 @@ const FeaturedProductsCarousel = () => {
                                     <span className='featured-product sale-price'>$800</span>
                                 </p>
                             </div>
+                            <div>
+                            <Link to="/gilly" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })} className="btn btn-primary form-control" role="button">SHOP NOW</Link>
+                            </div>
                         </div>
                     </div>
                     <div className='featured-product-content-wrapper'>
@@ -97,6 +117,9 @@ const FeaturedProductsCarousel = () => {
                                     <span className='featured-product regular-price'>$900 </span>
                                     <span className='featured-product sale-price'>$800</span>
                                 </p>
+                            </div>
+                            <div>
+                            <Link to="/idylle" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })} className="btn btn-primary form-control" role="button">SHOP NOW</Link>
                             </div>
                         </div>
                     </div>
