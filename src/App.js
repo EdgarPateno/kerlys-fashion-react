@@ -36,6 +36,7 @@ import Shae from './Components/Shae';
 import Ros from './Components/Ros';
 import Melisandre from './Components/Melisandre';
 import Greyjoy from './Components/Greyjoy';
+import Missandei from './Components/Missandei';
 
 function App() {
   return (
@@ -74,6 +75,7 @@ function App() {
         <Route path="/ros" element={<Ros />}></Route>
         <Route path="/melisandre" element={<Melisandre />}></Route>
         <Route path="/greyjoy" element={<Greyjoy />}></Route>
+        <Route path="/missandei" element={<Missandei />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
