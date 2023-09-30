@@ -47,6 +47,20 @@
   font-size: 2rem;
 }
 
+/* global CC for product tabs */
+ul.nav.nav-tabs .nav-link {
+  color: black;
+}
+
+ul.nav.nav-tabs .nav-link.active {
+  background-color: #329BD1;
+  color: white;
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-color: #329BD1;
+} 
+
 
 
 /*--------------------------- MOBILE RESPONSIVENESS ---------------------------*/
