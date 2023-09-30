@@ -1,6 +1,11 @@
 import '../CSS/HomepageVideoBannerShoes.css';
+import { Link } from 'react-router-dom';
+import { useRef } from 'react';
 
 function HomepageVideoBannerShoes() {
+
+    const headerRef = useRef(null);
+
     return (
         <section className="shoes-homepage-banner-video">
             <div className="container-liquid">
@@ -13,7 +18,7 @@ function HomepageVideoBannerShoes() {
                         <span className="comfort">and Comfort</span>
                     </h3>
                     <div className="justify-content-center d-flex">
-                        <a href="shoes-collection.html" className="btn btn-primary">SHOP LUXURY SHOES</a>
+                        <Link to="/shoes" onClick={() => headerRef.current.scrollIntoView({ behavior: 'smooth' })} className="btn btn-primary">SHOP LUXURY SHOES</Link>
                     </div>
                 </div>
             </div>
