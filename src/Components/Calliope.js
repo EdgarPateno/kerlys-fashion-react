@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import ProductTabs from './ProductTabs';
 import ProductAccordion from './ProductAccordion';
 import ProductGallerySlides from './ProductGallerySlides';
-import '../CSS/Calliope.css';
 import ProductInfoCard from './ProductInfoCard';
 
 const Calliope = () => {
@@ -19,7 +18,7 @@ const Calliope = () => {
     ]
     return (
         <div className="mt-5">
-            <section className="calliope-product-page container-sm">
+            <section className="calliope-product-page product-gallery-info-grid container-sm">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2">
                     <ProductGallerySlides images={productImages} />
 

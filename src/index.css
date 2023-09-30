@@ -33,9 +33,14 @@
   margin-right: 5px;
 }
 
-/* global fa fa-start */
+/* global fa fa-star */
 .fa.fa-star {
   color: goldenrod;
+}
+
+/* global CSS to remove border on the product info content */
+.product-gallery-info-grid .product-info-content .card {
+  border: none;
 }
 
 /* global CC icons in the product page */

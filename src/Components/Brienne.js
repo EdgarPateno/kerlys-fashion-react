@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../CSS/Brienne.css'
 import ProductTabs from './ProductTabs';
 import ProductAccordion from './ProductAccordion';
 import ProductGallerySlides from './ProductGallerySlides';
@@ -18,7 +17,7 @@ const Brienne = () => {
 
     return (
         <div className="mt-5">
-            <section className="brienne-product-page container">
+            <section className="brienne-product-page product-gallery-info-grid container">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2">
                     <ProductGallerySlides images={productImages} />
 

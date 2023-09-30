@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../CSS/Cassia.css'
 import ProductTabs from './ProductTabs';
 import ProductAccordion from './ProductAccordion';
 import ProductGallerySlides from './ProductGallerySlides';
@@ -20,7 +19,7 @@ const Cassia = () => {
 
     return (
         <div className="mt-5">
-            <section className="cassia-product-page container-sm">
+            <section className="cassia-product-page product-gallery-info-grid container-sm">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2">
                     <ProductGallerySlides images={productImages} />
 
