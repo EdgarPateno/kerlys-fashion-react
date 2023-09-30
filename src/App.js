@@ -32,6 +32,7 @@ import Yara from './Components/Yara';
 import Ygritte from './Components/Ygritte';
 import Margaery from './Components/Margaery';
 import Brienne from './Components/Brienne';
+import Shae from './Components/Shae';
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
         <Route path="/ygritte" element={<Ygritte />}></Route>
         <Route path="/margaery" element={<Margaery />}></Route>
         <Route path="/brienne" element={<Brienne />}></Route>
+        <Route path="/shae" element={<Shae />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
