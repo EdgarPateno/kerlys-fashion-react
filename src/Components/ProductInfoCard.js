@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import BelowATCBadges from "./BelowATCBadges";
 import "../CSS/ProductInfoCard.css";
 
@@ -7,8 +8,13 @@ function ProductInfoCard({
   regularPrice,
   salePrice,
   saveAmount,
+  id,
 }) {
+  const navigate = useNavigate();
   const [quantity, setQuantity] = useState(1);
+  const handleAddToCart = (id) => {
+    navigate("/cart/" + id);
+  };
 
   const handleQuantityChange = (event) => {
     const value = event.target.value;
@@ -80,6 +86,7 @@ function ProductInfoCard({
               id="addToCartButton"
               className="btn btn-primary"
               style={{ width: "100%" }}
+              onClick={() => handleAddToCart(id)}
             >
               Add to Cart
             </button>

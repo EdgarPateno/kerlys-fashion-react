@@ -1,46 +1,46 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import CookieConsent from './Components/CookieConsent';
-import TawkTo from './Components/Tawkto';
-import Header from './Components/Header';
-import Home from './Components/Home';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import ContactUs from './Components/ContactUs';
-import Newsletter from './Components/Newsletter';
-import FAQ from './Components/FAQ';
-import Bags from './Components/Bags';
-import Jewelry from './Components/Jewelry';
-import Shoes from './Components/Shoes';
-import OurBrands from './Components/OurBrands';
-import Aeliana from './Components/Aeliana';
-import Arya from './Components/Arya';
-import Calliope from './Components/Calliope';
-import Cassia from './Components/Cassia';
-import Dracarys from './Components/Dracarys';
-import Gwenore from './Components/Gwenore';
-import Sansa from './Components/Sansa';
-import Daenarys from './Components/Daenarys';
-import Catelyn from './Components/Catelyn';
-import Cersei from './Components/Cersei';
-import Baelish from './Components/Baelish';
-import Lysa from './Components/Lysa';
-import Arryn from './Components/Arryn';
-import Osha from './Components/Osha';
-import LVBags from './Components/LVBags';
-import Yara from './Components/Yara';
-import Ygritte from './Components/Ygritte';
-import Margaery from './Components/Margaery';
-import Brienne from './Components/Brienne';
-import Shae from './Components/Shae';
-import Ros from './Components/Ros';
-import Melisandre from './Components/Melisandre';
-import Greyjoy from './Components/Greyjoy';
-import Missandei from './Components/Missandei';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import CookieConsent from "./Components/CookieConsent";
+import TawkTo from "./Components/Tawkto";
+import Header from "./Components/Header";
+import Home from "./Components/Home";
+import Footer from "./Components/Footer";
+import About from "./Components/About";
+import ContactUs from "./Components/ContactUs";
+import Newsletter from "./Components/Newsletter";
+import FAQ from "./Components/FAQ";
+import Bags from "./Components/Bags";
+import Jewelry from "./Components/Jewelry";
+import Shoes from "./Components/Shoes";
+import OurBrands from "./Components/OurBrands";
+import Aeliana from "./Components/Aeliana";
+import Arya from "./Components/Arya";
+import Calliope from "./Components/Calliope";
+import Cassia from "./Components/Cassia";
+import Dracarys from "./Components/Dracarys";
+import Gwenore from "./Components/Gwenore";
+import Sansa from "./Components/Sansa";
+import Daenarys from "./Components/Daenarys";
+import Catelyn from "./Components/Catelyn";
+import Cersei from "./Components/Cersei";
+import Baelish from "./Components/Baelish";
+import Lysa from "./Components/Lysa";
+import Arryn from "./Components/Arryn";
+import Osha from "./Components/Osha";
+import LVBags from "./Components/LVBags";
+import Yara from "./Components/Yara";
+import Ygritte from "./Components/Ygritte";
+import Margaery from "./Components/Margaery";
+import Brienne from "./Components/Brienne";
+import Shae from "./Components/Shae";
+import Ros from "./Components/Ros";
+import Melisandre from "./Components/Melisandre";
+import Greyjoy from "./Components/Greyjoy";
+import Missandei from "./Components/Missandei";
+import Cart from "./Components/Cart";
 
 function App() {
   return (
-
     <div>
       <Header />
       <Routes>
@@ -76,14 +76,14 @@ function App() {
         <Route path="/melisandre" element={<Melisandre />}></Route>
         <Route path="/greyjoy" element={<Greyjoy />}></Route>
         <Route path="/missandei" element={<Missandei />}></Route>
+        <Route path="/cart/:id" element={<Cart />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
       <CookieConsent />
       <TawkTo />
     </div>
-
-  )
+  );
 }
 
 export default App;
