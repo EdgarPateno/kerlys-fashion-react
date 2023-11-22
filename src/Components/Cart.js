@@ -1,15 +1,21 @@
 import React from "react";
-import { useParams, useSearchParams } from "react-router-dom";
 
 const Cart = () => {
-  const [searchParams] = useSearchParams();
-  const { id } = useParams();
+  const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
 
-  console.log(id);
-
-  console.log(searchParams);
-
-  return <div>Cart</div>;
+  return (
+    <div>
+      {cartItems.map((item) => (
+        <div key={item.id}>
+          <h3>{item.productTitle}</h3>
+          <p>Regular Price: {item.regularPrice}</p>
+          <p>Sale Price: {item.salePrice}</p>
+          <p>Save Amount: {item.saveAmount}</p>
+          <p>Quantity: {item.quantity}</p>
+        </div>
+      ))}
+    </div>
+  );
 };
 
 export default Cart;

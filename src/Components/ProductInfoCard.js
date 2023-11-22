@@ -12,8 +12,31 @@ function ProductInfoCard({
 }) {
   const navigate = useNavigate();
   const [quantity, setQuantity] = useState(1);
-  const handleAddToCart = (id) => {
-    navigate("/cart/" + id);
+
+  const handleAddToCart = () => {
+    const cartItem = {
+      productTitle,
+      regularPrice,
+      salePrice,
+      saveAmount,
+      id,
+      quantity,
+    };
+
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+    const existingProductIndex = cart.findIndex((item) => item.id === id);
+
+    if (existingProductIndex !== -1) {
+      const existingQuantity = cart[existingProductIndex].quantity;
+      cart[existingProductIndex].quantity =
+        parseInt(existingQuantity) + parseInt(quantity);
+    } else {
+      cart.push(cartItem);
+    }
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+    console.log("Cart updated:", cart);
+    navigate(`/cart/${id}`);
   };
 
   const handleQuantityChange = (event) => {

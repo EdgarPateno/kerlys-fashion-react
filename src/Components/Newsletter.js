@@ -42,11 +42,9 @@ const Newsletter = () => {
           setErrorMessage(data.error); // Set error message
           setSuccessMessage(""); // Clear success message
         } else if (data.errors && data.errors.email_address) {
-          // If there's a validation error for the email address
           setErrorMessage(data.errors.email_address[0]); // Set error message
           setSuccessMessage(""); // Clear success message
         } else {
-          // Handle other error scenarios here
           setErrorMessage("An error occurred."); // Set a generic error message
           setSuccessMessage(""); // Clear success message
         }
