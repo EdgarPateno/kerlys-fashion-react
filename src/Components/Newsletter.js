@@ -8,6 +8,9 @@ const Newsletter = () => {
     email_address: "",
   });
 
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -25,12 +28,34 @@ const Newsletter = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log("Success:", data);
-        // Handle success (you might want to show a success message to the user)
+        if (data.message) {
+          setSuccessMessage(data.message); // Set success message
+          setErrorMessage(""); // Clear error message
+
+          // Clear input values on successful subscription
+          setFormData({
+            first_name: "",
+            last_name: "",
+            email_address: "",
+          });
+        } else if (data.error) {
+          setErrorMessage(data.error); // Set error message
+          setSuccessMessage(""); // Clear success message
+        } else if (data.errors && data.errors.email_address) {
+          // If there's a validation error for the email address
+          setErrorMessage(data.errors.email_address[0]); // Set error message
+          setSuccessMessage(""); // Clear success message
+        } else {
+          // Handle other error scenarios here
+          setErrorMessage("An error occurred."); // Set a generic error message
+          setSuccessMessage(""); // Clear success message
+        }
       })
       .catch((error) => {
         console.error("Error:", error);
         // Handle error (you might want to show an error message to the user)
+        setErrorMessage("Email address already exists."); // Set a generic error message
+        setSuccessMessage(""); // Clear success message
       });
   };
 
@@ -95,6 +120,12 @@ const Newsletter = () => {
           </div>
         </form>
       </div>
+      {successMessage && (
+        <p className="success-message text-center mb-0">{successMessage}</p>
+      )}
+      {errorMessage && (
+        <p className="error-message text-center mb-0">{errorMessage}</p>
+      )}
     </section>
   );
 };
