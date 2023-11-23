@@ -24,9 +24,9 @@ const Calliope = () => {
           <ProductInfoCard
             id="6"
             productTitle="Calliope"
-            regularPrice="$800"
-            salePrice="$700"
-            saveAmount="$100"
+            regularPrice="800"
+            salePrice="700"
+            saveAmount="100"
           />
         </div>
       </section>

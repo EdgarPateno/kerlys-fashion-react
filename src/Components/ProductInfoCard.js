@@ -67,10 +67,10 @@ function ProductInfoCard({
             {productTitle}
           </h5>
           <div className="h5 d-flex align-items-center" id="productPrice">
-            <span className="regular-price">{regularPrice}</span>
-            <span className="sale-price">{salePrice}</span>
+            <span className="regular-price">${regularPrice}</span>
+            <span className="sale-price">${salePrice}</span>
             <span id="save-badge" className="badge badge-save50 bg-danger">
-              {saveAmount}
+              ${saveAmount}
             </span>
           </div>
 

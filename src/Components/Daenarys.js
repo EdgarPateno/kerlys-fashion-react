@@ -25,9 +25,9 @@ const Daenarys = () => {
           <ProductInfoCard
             id="11"
             productTitle="Daenarys"
-            regularPrice="$1000"
-            salePrice="$800"
-            saveAmount="$200"
+            regularPrice="1000"
+            salePrice="800"
+            saveAmount="200"
           />
         </div>
       </section>
