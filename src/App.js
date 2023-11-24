@@ -37,8 +37,10 @@ import Ros from "./Components/Ros";
 import Melisandre from "./Components/Melisandre";
 import Greyjoy from "./Components/Greyjoy";
 import Missandei from "./Components/Missandei";
-import Olena from "./Components/Olena";
+import Olenna from "./Components/Olenna";
 import Cart from "./Components/Cart";
+import Myrcella from "./Components/Myrcella";
+import Tyene from "./Components/Tyene";
 
 function App() {
   return (
@@ -77,8 +79,10 @@ function App() {
         <Route path="/melisandre" element={<Melisandre />}></Route>
         <Route path="/greyjoy" element={<Greyjoy />}></Route>
         <Route path="/missandei" element={<Missandei />}></Route>
-        <Route path="/olena" element={<Olena />}></Route>
+        <Route path="/olenna" element={<Olenna />}></Route>
         <Route path="/lv-bags" element={<LVBags />}></Route>
+        <Route path="/myrcella" element={<Myrcella />}></Route>
+        <Route path="/tyene" element={<Tyene />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
       </Routes>
       <Newsletter />

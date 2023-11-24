@@ -4,15 +4,14 @@ import ProductAccordion from "./ProductAccordion";
 import ProductGallerySlides from "./ProductGallerySlides";
 import ProductInfoCard from "./ProductInfoCard";
 
-const Olena = () => {
+const Myrcella = () => {
   //const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState("description");
 
   const productImages = [
-    "/images/product-photos/olena/olena-shoes-1.webp",
-    "/images/product-photos/olena/olena-shoes-2.webp",
-    "/images/product-photos/olena/olena-shoes-3.webp",
-    "/images/product-photos/olena/olena-shoes-4.webp",
+    "/images/product-photos/myrcella/myrcella-shoes-1.webp",
+    "/images/product-photos/myrcella/myrcella-shoes-2.webp",
+    "/images/product-photos/myrcella/myrcella-shoes-3.webp",
   ];
 
   return (
@@ -23,9 +22,9 @@ const Olena = () => {
 
           <ProductInfoCard
             id="18"
-            productTitle="Olena"
-            regularPrice="800"
-            salePrice="600"
+            productTitle="Myrcella"
+            regularPrice="1000"
+            salePrice="800"
             saveAmount="200"
           />
         </div>
@@ -40,15 +39,15 @@ const Olena = () => {
             }`}
           >
             <p>
-              Introducing the exquisite Olena luxury shoes – a true embodiment
-              of elegance and sophistication. Crafted with the utmost precision
-              and attention to detail, this masterpiece redefines luxury in
-              every sense.
+              Introducing the exquisite Myrcella luxury shoes – a true
+              embodiment of elegance and sophistication. Crafted with the utmost
+              precision and attention to detail, this masterpiece redefines
+              luxury in every sense.
             </p>
 
             <p>
               Enveloped in the gentle embrace of a soothing baby blue hue, the
-              Olena luxury shoes exudes an aura of timeless charm and refined
+              Myrcella luxury shoes exudes an aura of timeless charm and refined
               beauty. The color evokes a sense of tranquility and grace, making
               it the perfect companion for any occasion, whether it be a casual
               outing or a glamorous soirée.
@@ -68,17 +67,17 @@ const Olena = () => {
           description={
             <div>
               <p>
-                Introducing the exquisite Olena luxury shoes – a true embodiment
-                of elegance and sophistication. Crafted with the utmost
-                precision and attention to detail, this masterpiece redefines
-                luxury in every sense.
+                Introducing the exquisite Myrcella luxury shoes – a true
+                embodiment of elegance and sophistication. Crafted with the
+                utmost precision and attention to detail, this masterpiece
+                redefines luxury in every sense.
               </p>
               <p>
                 Enveloped in the gentle embrace of a soothing baby blue hue, the
-                Olena luxury shoes exude an aura of timeless charm and refined
-                beauty. The color evokes a sense of tranquility and grace,
-                making it the perfect companion for any occasion, whether it be
-                a casual outing or a glamorous soirée.
+                Myrcella luxury shoes exude an aura of timeless charm and
+                refined beauty. The color evokes a sense of tranquility and
+                grace, making it the perfect companion for any occasion, whether
+                it be a casual outing or a glamorous soirée.
               </p>
             </div>
           }
@@ -88,4 +87,4 @@ const Olena = () => {
   );
 };
 
-export default Olena;
+export default Myrcella;

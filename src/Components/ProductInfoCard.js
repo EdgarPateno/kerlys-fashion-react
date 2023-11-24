@@ -29,7 +29,9 @@ function getProductImage(productTitle) {
     Melisandre: "/images/product-photos/melisandre/melisandre1.png",
     Greyjoy: "/images/product-photos/greyjoy/greyjoy1.webp",
     Missandei: "/images/product-photos/missandei/missandei1.webp",
-    Olena: "/images/product-photos/olena/olena-shoes-1.webp",
+    Olenna: "/images/product-photos/olenna/olenna-shoes-1.webp",
+    Myrcella: "/images/product-photos/myrcella/myrcella-shoes-1.webp",
+    Tyene: "/images/product-photos/tyene/tyene-shoes-1.webp",
   };
 
   return productImageMap[productTitle] || "";
