@@ -75,7 +75,7 @@ function Cart() {
                     />
                     <div>
                       <p className="product-title mb-0">{item.productTitle}</p>
-                      <p className="product-price">${item.salePrice}</p>
+                      <p className="product-price mb-0">${item.salePrice}</p>
                     </div>
                   </div>
                 </td>

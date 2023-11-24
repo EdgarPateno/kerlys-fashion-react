@@ -73,7 +73,19 @@ function ProductInfoCard({
       console.error("Error parsing cart items:", error);
     }
 
-    cartItems.push(cartItem);
+    const existingItemIndex = cartItems.findIndex(
+      (item) => item.productTitle === productTitle
+    );
+
+    if (existingItemIndex !== -1) {
+      // If the product already exists in the cart, update the quantity
+      cartItems[existingItemIndex].quantity =
+        parseInt(cartItems[existingItemIndex].quantity) + parseInt(quantity);
+    } else {
+      // Otherwise, add a new item to the cart
+      cartItems.push(cartItem);
+    }
+
     localStorage.setItem("cart", JSON.stringify(cartItems));
 
     navigate("/cart"); // Redirect to the /cart page
