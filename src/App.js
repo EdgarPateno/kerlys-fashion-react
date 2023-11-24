@@ -78,6 +78,7 @@ function App() {
         <Route path="/greyjoy" element={<Greyjoy />}></Route>
         <Route path="/missandei" element={<Missandei />}></Route>
         <Route path="/olena" element={<Olena />}></Route>
+        <Route path="/lv-bags" element={<LVBags />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
       </Routes>
       <Newsletter />
