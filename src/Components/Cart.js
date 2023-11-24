@@ -95,17 +95,11 @@ function Cart() {
                   </button>
                 </td>
                 <td>${calculateSubtotal(item.quantity, item.salePrice)}</td>
-                {/* <td>
-                  <button onClick={() => handleDeleteItem(index)}>
-                    <i className="fa fa-trash-o"></i>
-                  </button>
-                </td> */}
               </tr>
             ))}
             <tr>
-              <td className="text-center" colSpan="2">
-                ESTIMATED TOTAL
-              </td>
+              <td></td>
+              <td>ESTIMATED TOTAL</td>
               <td>${calculateTotal()}</td>
             </tr>
           </tbody>
