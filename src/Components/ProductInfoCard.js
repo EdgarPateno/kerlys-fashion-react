@@ -1,43 +1,44 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import BelowATCBadges from "./BelowATCBadges";
 import "../CSS/ProductInfoCard.css";
+import { useNavigate } from "react-router-dom";
+
+function getProductImage(productTitle) {
+  // Map the product title to the respective product image
+  const productImageMap = {
+    Aeliana: "/images/product-photos/aeliana/1.webp",
+    Arya: "/images/product-photos/arya/arya-1.webp",
+    Calliope: "/images/product-photos/calliope/calliope-1.webp",
+    Cassia: "/images/product-photos/cassia/cassia-1.webp",
+    Daenarys: "/images/product-photos/daenarys/daenarys1.webp",
+    Dracarys: "/images/product-photos/dracarys/dracarys-1.webp",
+    Gwenore: "/images/product-photos/gwenore/gwenore-1.webp",
+    Sansa: "/images/product-photos/sansa/sansa-2.webp",
+    Catelyn: "/images/product-photos/catelyn/catelyn1.webp",
+    Cersei: "/images/product-photos/cersei/cersei1.webp",
+    Baelish: "/images/product-photos/baelish/baelish1.webp",
+    Lysa: "/images/product-photos/lysa/lysa1.webp",
+    Arryn: "/images/product-photos/arryn/arryn1.webp",
+    Osha: "/images/product-photos/osha/osha1.webp",
+    Yara: "/images/product-photos/yara/yara1.webp",
+    Ygritte: "/images/product-photos/ygritte/ygritte1.webp",
+    Margaery: "/images/product-photos/margaery/margaery1.webp",
+    Brienne: "/images/product-photos/brienne/brienne1.webp",
+    Shae: "/images/product-photos/shae/shae1.webp",
+    Ros: "/images/product-photos/ros/ros1.webp",
+  };
+
+  return productImageMap[productTitle] || "";
+}
 
 function ProductInfoCard({
   productTitle,
   regularPrice,
   salePrice,
   saveAmount,
-  id,
 }) {
-  const navigate = useNavigate();
   const [quantity, setQuantity] = useState(1);
-
-  const handleAddToCart = () => {
-    const cartItem = {
-      productTitle,
-      regularPrice,
-      salePrice,
-      saveAmount,
-      id,
-      quantity,
-    };
-
-    const cart = JSON.parse(localStorage.getItem("cart")) || [];
-    const existingProductIndex = cart.findIndex((item) => item.id === id);
-
-    if (existingProductIndex !== -1) {
-      const existingQuantity = cart[existingProductIndex].quantity;
-      cart[existingProductIndex].quantity =
-        parseInt(existingQuantity) + parseInt(quantity);
-    } else {
-      cart.push(cartItem);
-    }
-
-    localStorage.setItem("cart", JSON.stringify(cart));
-    console.log("Cart updated:", cart);
-    navigate(`/cart/${id}`);
-  };
+  const navigate = useNavigate();
 
   const handleQuantityChange = (event) => {
     const value = event.target.value;
@@ -49,6 +50,27 @@ function ProductInfoCard({
     if (event.key === "e") {
       event.preventDefault();
     }
+  };
+
+  const handleAddToCart = () => {
+    const cartItem = {
+      productTitle,
+      salePrice,
+      quantity,
+      image: getProductImage(productTitle), // Assuming you have a function to get the product image
+    };
+
+    let cartItems = [];
+    try {
+      cartItems = JSON.parse(localStorage.getItem("cart")) || [];
+    } catch (error) {
+      console.error("Error parsing cart items:", error);
+    }
+
+    cartItems.push(cartItem);
+    localStorage.setItem("cart", JSON.stringify(cartItems));
+
+    navigate("/cart"); // Redirect to the /cart page
   };
 
   return (
@@ -109,7 +131,7 @@ function ProductInfoCard({
               id="addToCartButton"
               className="btn btn-primary"
               style={{ width: "100%" }}
-              onClick={() => handleAddToCart(id)}
+              onClick={handleAddToCart}
             >
               Add to Cart
             </button>
