@@ -47,9 +47,11 @@ function Cart() {
 
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-5">Review Your Cart</h2>
+      {cartItems.length > 0 && (
+        <h2 className="review-cart-title text-center mb-5">Review Your Cart</h2>
+      )}
       {cartItems.length === 0 ? (
-        <p>No items in the cart</p>
+        <h1 className="text-center">No items in the cart</h1>
       ) : (
         <table className="cart-table" style={{ width: "1200px" }}>
           <thead>
