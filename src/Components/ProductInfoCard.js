@@ -26,6 +26,9 @@ function getProductImage(productTitle) {
     Brienne: "/images/product-photos/brienne/brienne1.webp",
     Shae: "/images/product-photos/shae/shae1.webp",
     Ros: "/images/product-photos/ros/ros1.webp",
+    Melisandre: "/images/product-photos/melisandre/melisandre1.png",
+    Greyjoy: "/images/product-photos/greyjoy/greyjoy1.webp",
+    Missandei: "/images/product-photos/missandei/missandei1.webp",
   };
 
   return productImageMap[productTitle] || "";

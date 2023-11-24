@@ -1,3 +1,14 @@
-.fa {
+.cart-table .fa {
   padding: 5px;
+  font-size: 12px;
+  color: #329bd1;
+}
+
+.cart-table th {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.cart-table button {
+  border: 1px solid lightgrey;
 }

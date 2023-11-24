@@ -51,10 +51,10 @@ function Cart() {
       {cartItems.length === 0 ? (
         <p>No items in the cart</p>
       ) : (
-        <table style={{ width: "1200px" }}>
+        <table className="cart-table" style={{ width: "1200px" }}>
           <thead>
             <tr>
-              <th style={{ width: "600px" }}>PRODUCT</th>
+              <th style={{ width: "500px" }}>PRODUCT</th>
               <th style={{ width: "150px" }}>QUANTITY</th>
               <th style={{ width: "150px" }}>SUBTOTAL</th>
             </tr>
@@ -63,7 +63,7 @@ function Cart() {
             {cartItems.map((item, index) => (
               <tr key={index}>
                 <td>
-                  <div className="d-flex">
+                  <div className="d-flex align-items-center">
                     <img
                       src={item.image}
                       width={100}
@@ -72,8 +72,8 @@ function Cart() {
                       className="me-5"
                     />
                     <div>
-                      <h3>{item.productTitle}</h3>
-                      <p>${item.salePrice}</p>
+                      <p className="product-title mb-0">{item.productTitle}</p>
+                      <p className="product-price">${item.salePrice}</p>
                     </div>
                   </div>
                 </td>
@@ -85,13 +85,19 @@ function Cart() {
                   <button onClick={() => handleIncrementQuantity(index)}>
                     <i className="fa fa-plus"></i>
                   </button>
-                </td>
-                <td>${calculateSubtotal(item.quantity, item.salePrice)}</td>
-                <td>
-                  <button onClick={() => handleDeleteItem(index)}>
+                  <button
+                    className="ms-1"
+                    onClick={() => handleDeleteItem(index)}
+                  >
                     <i className="fa fa-trash-o"></i>
                   </button>
                 </td>
+                <td>${calculateSubtotal(item.quantity, item.salePrice)}</td>
+                {/* <td>
+                  <button onClick={() => handleDeleteItem(index)}>
+                    <i className="fa fa-trash-o"></i>
+                  </button>
+                </td> */}
               </tr>
             ))}
             <tr>
