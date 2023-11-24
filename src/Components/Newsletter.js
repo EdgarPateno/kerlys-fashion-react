@@ -18,7 +18,7 @@ const Newsletter = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Send a POST request to your Laravel backend
+    // Send a POST request to my Laravel backend
     fetch("http://localhost:8000/api/subscribe", {
       method: "POST",
       headers: {
@@ -32,7 +32,7 @@ const Newsletter = () => {
           setSuccessMessage(data.message); // Set success message
           setErrorMessage(""); // Clear error message
 
-          // Clear input values on successful subscription
+          // Clear input values when subscription is successful
           setFormData({
             first_name: "",
             last_name: "",
@@ -51,9 +51,15 @@ const Newsletter = () => {
       })
       .catch((error) => {
         console.error("Error:", error);
-        // Handle error (you might want to show an error message to the user)
-        setErrorMessage("Email address already exists."); // Set a generic error message
+
+        setErrorMessage("Email address already exists.");
         setSuccessMessage(""); // Clear success message
+
+        setFormData({
+          first_name: "",
+          last_name: "",
+          email_address: "",
+        });
       });
   };
 
