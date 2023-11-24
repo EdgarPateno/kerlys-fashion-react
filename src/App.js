@@ -37,6 +37,7 @@ import Ros from "./Components/Ros";
 import Melisandre from "./Components/Melisandre";
 import Greyjoy from "./Components/Greyjoy";
 import Missandei from "./Components/Missandei";
+import Olena from "./Components/Olena";
 import Cart from "./Components/Cart";
 
 function App() {
@@ -76,6 +77,7 @@ function App() {
         <Route path="/melisandre" element={<Melisandre />}></Route>
         <Route path="/greyjoy" element={<Greyjoy />}></Route>
         <Route path="/missandei" element={<Missandei />}></Route>
+        <Route path="/olena" element={<Olena />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
       </Routes>
       <Newsletter />

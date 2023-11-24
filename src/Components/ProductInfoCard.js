@@ -29,6 +29,7 @@ function getProductImage(productTitle) {
     Melisandre: "/images/product-photos/melisandre/melisandre1.png",
     Greyjoy: "/images/product-photos/greyjoy/greyjoy1.webp",
     Missandei: "/images/product-photos/missandei/missandei1.webp",
+    Olena: "/images/product-photos/olena/olena-shoes-1.webp",
   };
 
   return productImageMap[productTitle] || "";
@@ -60,7 +61,7 @@ function ProductInfoCard({
       productTitle,
       salePrice,
       quantity,
-      image: getProductImage(productTitle), // Assuming you have a function to get the product image
+      image: getProductImage(productTitle), // This is to get the image based on the product title and display it on the cart
     };
 
     let cartItems = [];
