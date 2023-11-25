@@ -12,3 +12,7 @@
 .cart-table button {
   border: 1px solid lightgrey;
 }
+
+.checkout-row .checkout-button {
+  padding-top: 2rem;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "../CSS/Cart.css";
+import { Link } from "react-router-dom";
 
 function Cart() {
   const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
@@ -56,7 +57,7 @@ function Cart() {
         <table className="cart-table" style={{ width: "1200px" }}>
           <thead>
             <tr>
-              <th style={{ width: "500px" }}>PRODUCT</th>
+              <th style={{ width: "300px" }}>PRODUCT</th>
               <th style={{ width: "150px" }}>QUANTITY</th>
               <th style={{ width: "150px" }}>SUBTOTAL</th>
             </tr>
@@ -103,6 +104,14 @@ function Cart() {
               <td>${calculateTotal()}</td>
             </tr>
           </tbody>
+          <tr className="checkout-row">
+            <td colSpan={2}></td>
+            <td className="checkout-button">
+              <Link to="/checkout" className="btn btn-primary">
+                CHECKOUT
+              </Link>
+            </td>
+          </tr>
         </table>
       )}
     </div>

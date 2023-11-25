@@ -46,6 +46,7 @@ import ReturnRefundExchange from "./Components/Refund";
 import Privacy from "./Components/Privacy";
 import TermsOfService from "./Components/TermsOfService";
 import TrackOrder from "./Components/TrackOrder";
+import Checkout from "./Components/Checkout";
 
 function App() {
   return (
@@ -94,6 +95,7 @@ function App() {
         <Route path="/tos" element={<TermsOfService />}></Route>
         <Route path="/track-order" element={<TrackOrder />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
+        <Route path="/checkout" element={<Checkout />}></Route>
       </Routes>
       <Newsletter />
       <Footer />
