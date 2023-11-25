@@ -41,6 +41,11 @@ import Olenna from "./Components/Olenna";
 import Cart from "./Components/Cart";
 import Myrcella from "./Components/Myrcella";
 import Tyene from "./Components/Tyene";
+import Shipping from "./Components/Shipping";
+import ReturnRefundExchange from "./Components/Refund";
+import Privacy from "./Components/Privacy";
+import TermsOfService from "./Components/TermsOfService";
+import TrackOrder from "./Components/TrackOrder";
 
 function App() {
   return (
@@ -83,6 +88,11 @@ function App() {
         <Route path="/lv-bags" element={<LVBags />}></Route>
         <Route path="/myrcella" element={<Myrcella />}></Route>
         <Route path="/tyene" element={<Tyene />}></Route>
+        <Route path="/shipping" element={<Shipping />}></Route>
+        <Route path="/return" element={<ReturnRefundExchange />}></Route>
+        <Route path="/privacy" element={<Privacy />}></Route>
+        <Route path="/tos" element={<TermsOfService />}></Route>
+        <Route path="/track-order" element={<TrackOrder />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
       </Routes>
       <Newsletter />

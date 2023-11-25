@@ -72,23 +72,30 @@ class ProductController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(string $id = null)
     {
-        //
-        try {
-            $product = Product::findOrFail($id);
+        if ($id) {
+            try {
+                $product = Product::findOrFail($id);
+                $response = [
+                    "code" => 200,
+                    "message" => "Successfully retrieved product by id!",
+                    'product' => new ProductResource($product)
+                ];
+            } catch (\Throwable $th) {
+                $response = [
+                    "code" => 500,
+                    "message" => "Error retrieving product by id!",
+                    "error" => $th->getMessage(),
+                ];
+            }
+        } else {
             $response = [
-                "code" => 200,
-                "message" => "Successfully retrieved product by id!",
-                'product' => new ProductResource($product)
+                "code" => 400,
+                "message" => "Invalid request. ID parameter is missing.",
             ];
-        } catch (\Throwable $th) {
-            $response = [
-                "code" => 500,
-                "message" => "Error retrieving product by id!",
-                "error" => $th->getMessage(),
-            ];
-         }
+        }
+
         return $response;
     }
 
@@ -141,6 +148,21 @@ class ProductController extends Controller
             ];
         }
    
+        return $response;
+    }
+
+    public function search(Request $request)
+    {
+        $keyword = $request->input('keyword');
+
+        $products = Product::where('product_name', 'like', "%{$keyword}%")->get();
+
+        $response = [
+            "code" => 200,
+            "message" => "Successfully retrieved products by keyword!",
+            "products" => $products,
+        ];
+
         return $response;
     }
 }
